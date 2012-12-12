@@ -1,0 +1,339 @@
+.flair {
+    background: url(flair.png) no-repeat;
+}
+
+.flair-8bit {
+    width: 18px;
+    height: 21px;
+    background-position: -140px -164px;
+}
+
+.flair-basementboy {
+    width: 28px;
+    height: 26px;
+    background-position: -63px -27px;
+}
+
+.flair-bean {
+    width: 16px;
+    height: 21px;
+    background-position: -32px -30px;
+}
+
+.flair-bird {
+    width: 20px;
+    height: 18px;
+    background-position: -159px -164px;
+}
+
+.flair-bluebaby {
+    width: 26px;
+    height: 22px;
+    background-position: -106px -77px;
+}
+
+.flair-bomb {
+    width: 21px;
+    height: 24px;
+    background-position: -48px -123px;
+}
+
+.flair-brobobby {
+    width: 15px;
+    height: 20px;
+    background-position: -188px -149px;
+}
+
+.flair-cain {
+    width: 26px;
+    height: 22px;
+    background-position: -79px -77px;
+}
+
+.flair-card {
+    width: 24px;
+    height: 20px;
+    background-position: -157px -77px;
+}
+
+.flair-caveboy {
+    width: 28px;
+    height: 26px;
+    background-position: -121px -0px;
+}
+
+.flair-d6 {
+    width: 26px;
+    height: 20px;
+    background-position: -130px -102px;
+}
+
+.flair-darkboy {
+    width: 28px;
+    height: 26px;
+    background-position: -92px -0px;
+}
+
+.flair-demonbaby {
+    width: 16px;
+    height: 20px;
+    background-position: -187px -30px;
+}
+
+.flair-dime {
+    width: 24px;
+    height: 13px;
+    background-position: -187px -51px;
+}
+
+.flair-error {
+    width: 20px;
+    height: 24px;
+    background-position: -150px -0px;
+}
+
+.flair-eternalheart {
+    width: 24px;
+    height: 17px;
+    background-position: -115px -164px;
+}
+
+.flair-eve {
+    width: 25px;
+    height: 26px;
+    background-position: -26px -54px;
+}
+
+.flair-fetus {
+    width: 22px;
+    height: 32px;
+    background-position: -92px -27px;
+}
+
+.flair-gamekidBubblegumBalloon {
+    width: 19px;
+    height: 24px;
+    background-position: -167px -49px;
+}
+
+.flair-goldengod {
+    width: 24px;
+    height: 20px;
+    background-position: -125px -123px;
+}
+
+.flair-goldenkey {
+    width: 18px;
+    height: 24px;
+    background-position: -169px -139px;
+}
+
+.flair-guardianangel {
+    width: 29px;
+    height: 20px;
+    background-position: -52px -56px;
+}
+
+.flair-headlesshorseman {
+    width: 30px;
+    height: 28px;
+    background-position: -32px -0px;
+}
+
+.flair-heart {
+    width: 24px;
+    height: 17px;
+    background-position: -90px -164px;
+}
+
+.flair-isaac {
+    width: 26px;
+    height: 22px;
+    background-position: -52px -77px;
+}
+
+.flair-joker {
+    width: 24px;
+    height: 19px;
+    background-position: -70px -139px;
+}
+
+.flair-joncusack {
+    width: 31px;
+    height: 32px;
+    background-position: -0px -0px;
+}
+
+.flair-judas {
+    width: 25px;
+    height: 26px;
+    background-position: -0px -54px;
+}
+
+.flair-key {
+    width: 18px;
+    height: 24px;
+    background-position: -150px -139px;
+}
+
+.flair-littlechad {
+    width: 15px;
+    height: 20px;
+    background-position: -188px -128px;
+}
+
+.flair-littlechubby {
+    width: 15px;
+    height: 20px;
+    background-position: -182px -107px;
+}
+
+.flair-littlegish {
+    width: 21px;
+    height: 20px;
+    background-position: -0px -164px;
+}
+
+.flair-littlesteve {
+    width: 14px;
+    height: 20px;
+    background-position: -49px -30px;
+}
+
+.flair-maggy {
+    width: 26px;
+    height: 21px;
+    background-position: -50px -102px;
+}
+
+.flair-meat {
+    width: 26px;
+    height: 22px;
+    background-position: -140px -54px;
+}
+
+.flair-meatboyisaac {
+    width: 23px;
+    height: 20px;
+    background-position: -157px -98px;
+}
+
+.flair-momsboy {
+    width: 28px;
+    height: 26px;
+    background-position: -63px -0px;
+}
+
+.flair-nickel {
+    width: 24px;
+    height: 14px;
+    background-position: -187px -15px;
+}
+
+.flair-parasite {
+    width: 24px;
+    height: 28px;
+    background-position: -115px -27px;
+}
+
+.flair-penny {
+    width: 24px;
+    height: 14px;
+    background-position: -171px -0px;
+}
+
+.flair-phd {
+    width: 24px;
+    height: 19px;
+    background-position: -157px -119px;
+}
+
+.flair-pill {
+    width: 22px;
+    height: 24px;
+    background-position: -77px -102px;
+}
+
+.flair-platinumgod {
+    width: 24px;
+    height: 21px;
+    background-position: -23px -123px;
+}
+
+.flair-poop {
+    width: 22px;
+    height: 25px;
+    background-position: -0px -102px;
+}
+
+.flair-robobaby {
+    width: 15px;
+    height: 20px;
+    background-position: -181px -86px;
+}
+
+.flair-samson {
+    width: 26px;
+    height: 21px;
+    background-position: -23px -102px;
+}
+
+.flair-sickbomb {
+    width: 25px;
+    height: 26px;
+    background-position: -140px -27px;
+}
+
+.flair-sistermaggy {
+    width: 15px;
+    height: 20px;
+    background-position: -187px -65px;
+}
+
+.flair-skatole {
+    width: 24px;
+    height: 20px;
+    background-position: -100px -123px;
+}
+
+.flair-soul {
+    width: 20px;
+    height: 23px;
+    background-position: -166px -25px;
+}
+
+.flair-soulheart {
+    width: 24px;
+    height: 17px;
+    background-position: -65px -164px;
+}
+
+.flair-spider {
+    width: 29px;
+    height: 18px;
+    background-position: -100px -102px;
+}
+
+.flair-steven {
+    width: 22px;
+    height: 20px;
+    background-position: -0px -139px;
+}
+
+.flair-thegamekid {
+    width: 18px;
+    height: 23px;
+    background-position: -46px -164px;
+}
+
+.flair-trollbomb {
+    width: 23px;
+    height: 24px;
+    background-position: -133px -77px;
+}
+
+.flair-vampirebat {
+    width: 23px;
+    height: 18px;
+    background-position: -22px -164px;
+}
