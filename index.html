@@ -19,7 +19,11 @@
 <script>
 $(function() {
 	var $stitches = $("#stitches");
-	Stitches.init($stitches, {jsdir: "stitches/build/js"});
+	Stitches.init($stitches, {
+		jsdir: "stitches/build/js",
+		prefix: "flair",
+		padding: 0
+	});
 });
 </script>
 
