@@ -1,9 +1,19 @@
 /r/bindingofisaac sprites
 =========================
 
-1. clone this
-2. add files to the sprites folder, commit and push
-3. open `yourname.github.com/r-isaac-sprites` in a modern browser
-4. drag all files in the sprites folder on top of the page
+1. open [this](http://flying-sheep.github.com/r-isaac-sprites) in a modern browser
+2. download [this](https://github.com/flying-sheep/r-isaac-sprites/archive/gh-pages.zip) or clone it if you know git
+3. add all new sprites to the sprites folder
+4. drag all sprites in the sprites folder on top of the page
 5. click “generate”
-6. overwrite `flair.css` and `flair.png` with the newly generated files (right click → save as), commit and push
+6. download the sprite sheet and stylesheet
+
+if you know git
+---------------
+1. overwrite `flair.css` and `flair.png` with the newly generated files (right click → save as)
+2. commit all new sprites and the changed sprite sheet/stylesheet
+3. send me a pull request
+
+if you don’t know git
+---------------------
+just send me the new sprites
