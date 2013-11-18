@@ -1,6 +1,3 @@
 [submodule "stitches"]
 	path = stitches
-	url = https://github.com/flying-sheep/stitches.git
-[submodule "_tools"]
-	path = _tools
-	url = https://github.com/draeton/_tools.git
+	url = https://github.com/draeton/stitches.git
