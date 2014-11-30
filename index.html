@@ -5,7 +5,9 @@
 
 <title>/r/bindingofisaac sprite stitcher</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="stitches/build/css/stitches-0.5.18-min.css">
+<link rel="stylesheet" href="stitches/build/libs/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="stitches/build/libs/bootstrap/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="stitches/build/stitches/css/stitches-1.3.5.min.css"></link>
 
 <style>
 body {
@@ -14,27 +16,39 @@ body {
 }
 </style>
 
-<script src="stitches/build/js/jquery-1.7.1.min.js"></script>
-<script src="stitches/build/js/modernizr-2.0.6.min.js"></script>
-<script src="stitches/build/js/stitches-0.5.18.js"></script>
+<script src="stitches/build/libs/jquery/jquery-1.7.1.min.js"></script>
+<script src="stitches/build/libs/modernizr/modernizr-2.0.6.min.js"></script>
+<script src="stitches/build/libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="stitches/build/stitches/js/stitches-1.3.5.min.js"></script>
+<script src="stitches/src/require.js"></script>
 
 <script>
-$(function() {
-	var $stitches = $("#stitches");
-	Stitches.init($stitches, {
-		jsdir: "stitches/build/js",
-		prefix: "flair",
-		padding: 0
+require({
+	paths: {
+		"tpl" : "stitches/src/tpl"
+	}
+},
+[
+	"wrap/jquery",
+	"module/stitches"
+],
+function($, Stitches) {
+	var s = new Stitches('#stitches', {
+		padding: 0,
+		prefix: 'flair',
 	});
-});
+	console.log(s)
+	s.$element.one('show-overlay', function() {
+		$(".stitches-about").fadeOut()
+	})
+})
 </script>
-
 
 </head>
 <body>
 
 
-<div id="stitches"></div>
+<p id="stitches"></p>
 
 <p>Meh, that didn’t work out as i wanted</p>
 <p>just download <a href="https://github.com/flying-sheep/r-isaac-sprites/archive/gh-pages.zip">this</a> or <a href="https://github.com/flying-sheep/r-isaac-sprites">clone it</a></p>
