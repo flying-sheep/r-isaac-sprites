@@ -1,8 +1,8 @@
 /r/bindingofisaac sprites
 =========================
 
-1. open [this](http://flying-sheep.github.com/r-isaac-sprites) in a modern browser
-2. download [this](https://github.com/flying-sheep/r-isaac-sprites/archive/gh-pages.zip) or clone it if you know git
+1. open [this](http://jonathan-w.github.io/r-isaac-sprites/) in a modern browser
+2. clone this repo
 3. add all new sprites to the sprites folder
 4. drag all sprites in the sprites folder on top of the page
 5. click “generate”
