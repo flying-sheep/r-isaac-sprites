@@ -1,5 +1,5 @@
 .flair {
-    background-image: url(spritesheet.png);
+    background-image: url(flair.png);
     background-repeat: no-repeat;
     display: block;
 }
@@ -932,6 +932,12 @@
     width: 32px;
     height: 32px;
     background-position: -377px -357px;
+}
+
+.flair-lustyblood {
+    width: 17px;
+    height: 24px;
+    background-position: -530px -375px;
 }
 
 .flair-magdalene {
