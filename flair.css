@@ -1,1577 +1,4450 @@
+/* /////////////////////////////////////////////////////////
+// REPLACE 'READERS' TEXT
+//////////////////////////////////////////////////////////// */
+body {
+    background-color: #
+}
+// teh
+.titlebox span.subscribers span.word {
+    display: none;
+}
+.titlebox span.subscribers span.number:after {
+    content: " NICOLO PLS AFTERBIRTH+";
+    /*background-image: url(%%body%%);
+    padding: 6px 0 6px 32px;
+    background-repeat: no-repeat;
+    background-position: 5px center;*/
+}
+.titlebox p.users-online span.number:after {
+    content: "  ༼ つ ◕_◕ ༽つ";
+}
+.titlebox p.users-online {
+    margin-top: 10px;
+}
+div.titlebox p.users-online span.word {
+    display: none
+}
+body {
+    /*background: url(%%background%%);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;*/
+
+    min-width: 970px;
+}
+/* /////////////////////////////////////////////////////////
+// POSTING WARNING
+//////////////////////////////////////////////////////////// */
+
+.submit.content .infobar {
+    background-color: white;
+    border: none;
+}
+.submit.content .formtabs-content {
+    border: none;
+}
+.submit-content .tabmenu.formtab li {
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    padding: 5px;
+}
+.submit-content .tabmenu.formtab li a {
+    border: none;
+}
+.submit.content .tabmenu:after {
+    display: block;
+    margin: 5px 0 -10px -5px;
+    width: 520px;
+    font-size: 1.5em;
+    line-height: 2em;
+    font-weight: bold;
+    color: red;
+    background-color: white;
+    text-decoration: underline;
+    content: "Please keep post quality high!"
+}
+.submit.content #link-desc:after,
+.submit.content #text-desc:after {
+    display: block;
+    width: 490px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: 2px solid red;
+    content: "Please use the flair selector after posting to tag your post and try the search box to make sure it's not a repost! Please, try to avoid commonly posted threads such as EDEN STARTS, 3-guppy-item devil rooms, item dupes, missing meat boy items, real plat god unlocks, lilith familiar trains."
+}
+/* /////////////////////////////////////////////////////////
+// REDDIT OVERRIDES
+//////////////////////////////////////////////////////////// */
+
+h2 {
+    color: #000;
+}
+.tagline .userattrs .cakeday,
+.tagline .userattrs .submitter {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 0;
+    height: 25px;
+    background-image: url(%%userattrs%%);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.tagline .userattrs .cakeday {
+    width: 23px;
+    height: 20px;
+    background-position: 0 0;
+}
+.tagline .userattrs .submitter {
+    width: 28px;
+    background-position: -23px 0;
+}
+.tagline .edited-timestamp {
+    padding-right: 18px;
+    background-image: url(%%hourglass%%);
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 16px;
+    vertical-align: middle;
+}
+/* /////////////////////////////////////////////////////////
+// HEADER STYLE
+//////////////////////////////////////////////////////////// */
+
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+@-moz-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+@-webkit-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    50% {
+        background-color: #141414;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+        background-color: #141414;
+    }
+}
+@-ms-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+#header {
+    height: 185px;
+    background: #141414;
+    font-family: arial, sans-serif;
+    border-bottom: 0px;
+    /*background-image: url(%%snow%%), url(%%snow2%%), url(%%snow3%%);
+    -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+    animation: snow 20s linear infinite;*/
+}
+#header-img {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    width: 32px;
+    height: 43px;
+    background-image: url(%%keepersnooUPDATED%%);
+    background-position: 32px 0;
+}
+#header-img:hover {
+    background-position: 0 0;
+}
+#header-bottom-left {
+    z-index: 900;
+    height: 166px;
+}
+#sr-header-area {
+    opacity: 1;
+    height: 18px;
+    background-color: #000;
+    color: #AAA;
+    border-bottom: 1px solid #000;
+}
+#sr-more-link {
+    background-color: #141414 !important;
+}
+.dropdown.srdrop .selected {
+    color: #CCC;
+}
+.drop-choices a.choice {
+    color: #000 !important
+}
+#sr-header-area a {
+    color: #CCC;
+    font-family: Verdana, Arial, sans-serif;
+}
+#sr-header-area a:hover {
+    color: #b4c4dd;
+    text-decoration: none;
+}
+#RESShortcutsEditContainer {
+    top: 1px!important;
+    background-color: #000!important;
+}
+.res #RESShortcutsSort {
+    width: 30px!important;
+    background-color: #000!important;
+    color: #B1B1B1!important;
+}
+#RESShortcutsRight,
+#RESShortcutsLeft,
+#RESShortcutsAdd,
+#RESShortcutsTrash {
+    background-color: #000!important;
+    color: #979797!important;
+}
+.pagename {
+    font-weight: bold;
+    margin-right: 1ex;
+    font-variant: small-caps;
+    font-size: 1.2em;
+    vertical-align: bottom;
+}
+.pagename a {
+    top: 50px;
+    width: 463px;
+    margin-left: -231.5px;
+    height: 93px;
+}
+.pagename a:hover {
+    background-position: 0px -100px;
+}
+.pagename a {
+    display: block;
+    visibility: visible!important;
+    position: absolute;
+    left: 50%;
+    z-index: 99;
+    background-image: url(%%ab-header%%);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+.pagename a:hover {
+    background-position: 0px -93px;
+}
+#header .tabmenu {
+    position: absolute;
+    top: 160px;
+    margin: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    left: 44px;
+    min-width: 650px;
+    padding-left: 100px;
+}
+.tabmenu li a {
+    padding: 4px 8px;
+    font-weight: lighter;
+    color: #b4c4dd;
+    background-color: transparent;
+    font-size: 12px;
+    z-index: 9999999;
+    transition: ease background 0.25s;
+    border-radius: 5px;
+}
+.tabmenu li.selected a {
+    background-color: #369;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+.tabmenu li a:hover {
+    background-color: #b4c4dd;
+    border-radius: 5px;
+    color: #369;
+    border: none;
+}
+.res #header-bottom-right {
+    right: 10px;
+    top: 156px !important;
+    padding: 4px 2px 5px 2px!important;
+    border-radius: 0px!important;
+}
+#header-bottom-right {
+    position: absolute;
+    top: 156px;
+    right: 0;
+    padding: 8px 15px 7px 15px;
+    width: auto;
+    height: 12px;
+    background-color: transparent;
+}
+#header-bottom-right a {
+    color: #b4c4dd;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#header-bottom-right a:hover {
+    color: #fff;
+}
+.res #userbarToggle {
+    display: none!important;
+}
+.user,
+.loggedin .user {
+    color: #b4c4dd;
+}
+#RESAccountSwitcherIcon {
+    margin-top: -5px;
+}
+.separator {
+    color: #b4c4dd;
+}
+.md ul {
+    padding-left: 20px !important;
+}
+.side {
+    padding-top: 23px !important;
+}
+.side .md blockquote h4 a {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: white;
+    z-index: 12111;
+    font-size: 11px;
+    text-shadow: 0px 0px 50px rgba(255,0,0,0.8);
+}
+.side .md blockquote h4 a strong {
+    font-family:monospace;
+    display: block;
+    text-align: center;
+    font-size: 76px;
+    margin-top: 20px;
+    line-height: 75px;
+}
+@keyframes shakeme {
+    0% { transform: translate(4px, 1px) rotate(0deg); }
+  10% { transform: translate(-2px, -4px) rotate(-2deg); }
+  20% { transform: translate(-6px, 0px) rotate(2deg); }
+  30% { transform: translate(0px, 4px) rotate(0deg); }
+  40% { transform: translate(2px, -2px) rotate(2deg); }
+  50% { transform: translate(-2px, 4px) rotate(-2deg); }
+  60% { transform: translate(-6px, 2px) rotate(0deg); }
+  70% { transform: translate(4px, 2px) rotate(-2deg); }
+  80% { transform: translate(-2px, -2px) rotate(2deg); }
+  90% { transform: translate(4px, 4px) rotate(0deg); }
+  100% { transform: translate(2px, -4px) rotate(-2deg); }
+}
+@-moz-keyframes shakeme {
+    0% { -moz-transform: translate(4px, 1px) rotate(0deg); }
+  10% { -moz-transform: translate(-2px, -4px) rotate(-2deg); }
+  20% { -moz-transform: translate(-6px, 0px) rotate(2deg); }
+  30% { -moz-transform: translate(0px, 4px) rotate(0deg); }
+  40% { -moz-transform: translate(2px, -2px) rotate(2deg); }
+  50% { -moz-transform: translate(-2px, 4px) rotate(-2deg); }
+  60% { -moz-transform: translate(-6px, 2px) rotate(0deg); }
+  70% { -moz-transform: translate(4px, 2px) rotate(-2deg); }
+  80% { -moz-transform: translate(-2px, -2px) rotate(2deg); }
+  90% { -moz-transform: translate(4px, 4px) rotate(0deg); }
+  100% { -moz-transform: translate(2px, -4px) rotate(-2deg); }
+}
+@-webkit-keyframes shakeme {
+    0% { -webkit-transform: translate(4px, 1px) rotate(0deg); }
+  10% { -webkit-transform: translate(-2px, -4px) rotate(-2deg); }
+  20% { -webkit-transform: translate(-6px, 0px) rotate(2deg); }
+  30% { -webkit-transform: translate(0px, 4px) rotate(0deg); }
+  40% { -webkit-transform: translate(2px, -2px) rotate(2deg); }
+  50% { -webkit-transform: translate(-2px, 4px) rotate(-2deg); }
+  60% { -webkit-transform: translate(-6px, 2px) rotate(0deg); }
+  70% { -webkit-transform: translate(4px, 2px) rotate(-2deg); }
+  80% { -webkit-transform: translate(-2px, -2px) rotate(2deg); }
+  90% { -webkit-transform: translate(4px, 4px) rotate(0deg); }
+  100% { -webkit-transform: translate(2px, -4px) rotate(-2deg); }
+}
+@-o-keyframes shakeme {
+    0% { -o-transform: translate(4px, 1px) rotate(0deg); }
+  10% { -o-transform: translate(-2px, -4px) rotate(-2deg); }
+  20% { -o-transform: translate(-6px, 0px) rotate(2deg); }
+  30% { -o-transform: translate(0px, 4px) rotate(0deg); }
+  40% { -o-transform: translate(2px, -2px) rotate(2deg); }
+  50% { -o-transform: translate(-2px, 4px) rotate(-2deg); }
+  60% { -o-transform: translate(-6px, 2px) rotate(0deg); }
+  70% { -o-transform: translate(4px, 2px) rotate(-2deg); }
+  80% { -o-transform: translate(-2px, -2px) rotate(2deg); }
+  90% { -o-transform: translate(4px, 4px) rotate(0deg); }
+  100% { -o-transform: translate(2px, -4px) rotate(-2deg); }
+}
+@-ms-keyframes shakeme {
+    0% { -ms-transform: translate(4px, 1px) rotate(0deg); }
+  10% { -ms-transform: translate(-2px, -4px) rotate(-2deg); }
+  20% { -ms-transform: translate(-6px, 0px) rotate(2deg); }
+  30% { -ms-transform: translate(0px, 4px) rotate(0deg); }
+  40% { -ms-transform: translate(2px, -2px) rotate(2deg); }
+  50% { -ms-transform: translate(-2px, 4px) rotate(-2deg); }
+  60% { -ms-transform: translate(-6px, 2px) rotate(0deg); }
+  70% { -ms-transform: translate(4px, 2px) rotate(-2deg); }
+  80% { -ms-transform: translate(-2px, -2px) rotate(2deg); }
+  90% { -ms-transform: translate(4px, 4px) rotate(0deg); }
+  100% { -ms-transform: translate(2px, -4px) rotate(-2deg); }
+}
+
+
+
+a[href*="redd.it/3qtssz"] {
+    color: orangered !important;
+}
+a[href*="redd.it/3obc23"] {
+    color: green !important;
+}
+a[href*="redd.it/3qtssz"],
+.side .md blockquote h4 a strong:hover {
+  display: inline-block !important;
+  animation: shakeme linear 0.2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: shakeme linear 0.2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: shakeme linear 0.2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: shakeme linear 0.2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: shakeme linear 0.2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+.side .md blockquote ol {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    z-index: 1000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent !important;
+}
+.side .md blockquote ol li a {
+    display: inline-block;
+    padding: 5px 5px 5px 0;
+    background: #141414;
+    border: 2px solid #b4c4dd;
+    font-size: 12px;
+    text-decoration: none;
+    color: #eee;
+    transition: ease background 0.25s;
+}
+.side .md blockquote ol li a:hover {
+    background: #369;
+    color: #eee;
+}
+.side .md blockquote ol li a:before {
+    content: "NOTICE";
+    font-weight: bold;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    background: #b4c4dd;
+    color: #141414 !important;
+}
+.side .md blockquote ol li:first-child a:before {
+    content: "DISCUSSION";
+}
+.side .md blockquote ol li:nth-child(1) a:before {
+    content: "DAILY RUN";
+    background: #16a085;
+    color: #fff !important;
+}
+.side .md blockquote ol li:nth-child(1) a {
+    border: 2px solid #1abc9c;
+    color: #fff !important
+}
+.side .md blockquote ol li:nth-child(1) a:hover {
+    background: #16a085;
+}
+.side .md blockquote ol li:nth-child(2) a {
+    border: 2px solid #8a1734;
+    color: #fff !important
+}
+.side .md blockquote ol li:nth-child(2) a:hover {
+    background: #b53756;
+}
+.side .md blockquote ol li:nth-child(2) a:before {
+    content: "NOTICE";
+    color: #fff !important;
+    background: #8a1734;
+}
+
+.side .md blockquote h3 {
+    background-image: url(%%tip-background%%);
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 141px;
+    position: absolute;
+    top: 23px;
+    right: 5px;
+    z-index: 111;
+}
+
+.side .md blockquote ol li a ~ .RESUserTag, .side .md blockquote ol li a ~ a {
+    display: none !important;
+}
+
+/* /////////////////////////////////////////////////////////
+// MAIN CONTENT
+//////////////////////////////////////////////////////////// */
+
+.content {
+    margin-right: 335px;
+}
+.thing {
+    background: #fff;
+    padding: 5px 0px 5px 2px;
+}
+.commentarea {
+    background: #F3F3F3;
+    border: 1px solid #989898;
+}
+.thing .title {
+    color: #000;
+}
+.link .rank {
+    display: none;
+}
+.link .usertext .md {
+    border-radius: 0px !important;
+}
+.thumbnail {
+    width: 80px!important;
+    height: 80px!important;
+    background-position: center center!important;
+    background-repeat: no-repeat !important;
+    overflow: visible;
+}
+.thumbnail img {
+    margin: 0 auto !important;
+    display:block;
+    overflow:visible;
+}
+.thumbnail.nsfw {
+    background-image: url(%%tag-nsfw%%) !important;
+}
+.thumbnail.default {
+    background-image: url(%%tag-img%%) !important;
+}
+.thumbnail.self {
+    background-image: url(%%tag-text%%) !important;
+}
+.linkflair-spoilers .thumbnail {
+    background-image: url(%%spoiler-tag%%) !important;
+}
+.linkflair-spoilers .thumbnail img {
+    display:none;
+}
+
+.linkflair-technical .thumbnail {
+    background-image: url(%%technical%%) !important;
+}
+.linkflair-technical .thumbnail img {
+    display:none;
+}
+
+.thing .title:visited,
+.thing.visited .title {
+    color: #369;
+}
+.tagline {
+    line-height: 32px;
+}
+
+.entry .buttons li.nsfw-stamp:after {
+    content: 'SPOILERS';
+}
+.entry .buttons li.nsfw-stamp acronym {
+    display: none;
+}
+.entry .buttons .flairselectbtn {
+    font-size: 14px;
+    color: #8a1734;
+}
+/* /////////////////////////////////////////////////////////
+// SIDEBAR
+//////////////////////////////////////////////////////////// */
+
+.side {
+    padding: 10px;
+    background: #F3F3F3;
+    border: 1px solid #BEBEBE;
+    margin: 7px;
+}
+.morelink {
+    display: none !important;
+}
+.side ol {
+    padding-left: 20px;
+}
+.sidebox.submit.submit-link {
+    display: none;
+}
+#search input[type=text] {
+    border: 1px solid #BEBEBE;
+    font-size: 18px;
+    width: 295px;
+    padding: 2px;
+    margin-left: -11px;
+    width: 322px;
+    padding: 5px 0px 5px 35px !important;
+    background: url(%%crystalball%%) #fff 5px center no-repeat;
+    outline: none;
+}
+.titlebox h1 a {
+    position: absolute;
+    top: 10px;
+    margin: 0px;
+    text-indent: -9999px;
+}
+#searchexpando {
+    background-color: #2c4877;
+    height: 20px;
+    overflow: hidden;
+    padding-top: 5px;
+    width: 300px;
+    margin-left: -10px;
+    margin-top: 0px;
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: white;
+}
+.leavemoderator {
+    background: #F3F3F3;
+}
+.flairtoggle,
+.sr_style_toggle {
+    background: #F3F3F3 !important;
+}
+.side a[href*="/submit"], .side p a[href*="/about/rules"] {
+    -webkit-transition: ease .25s all;
+    -moz-transition: ease .25s all;
+    -ms-transition: ease .25s all;
+    -o-transition: ease .25s all;
+    font-size: 12px;
+    width: 281px;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #369;
+    color: white;
+    margin-left: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #1f3355;
+}
+.side a[href*="/submit"]:hover, .side p a[href*="/about/rules"]:hover {
+    font-size: 14px;
+}
+
+.side p a[href*="/about/rules"] {
+    background-color: #1e7ad6;
+    border-bottom-color: #184e84;
+}
+
+hr {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+.md hr {
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 1px !important;
+}
+.md a {
+    color: #369;
+}
+.md h1 a {
+    position: initial;
+    color: #369;
+}
+/* /////////////////////////////////////////////////////////
+// VOTE ICONS
+//////////////////////////////////////////////////////////// */
+
+.score.likes,
+.score.unvoted,
+.score.dislikes {
+    margin: -2.5px 0 !important;
+}
+.midcol .arrow {
+    margin-top: 0!important;
+}
+.midcol .arrow.up {
+    background-image: url(%%db%%) !important;
+    background-position: -1536px 0;
+    height: 32px !important;
+    width: 32px !important;
+    opacity: 0.7 !important;
+}
+.midcol .arrow.upmod {
+    background-image: url(%%db%%) !important;
+    background-position: 0 0;
+    height: 32px !important;
+    width: 32px !important;
+}
+.thing[data-fullname$="e"] > .likes > .arrow.upmod,
+.thing[data-fullname$="l"] > .likes > .arrow.upmod,
+.thing[data-fullname$="u"] > .likes > .arrow.upmod,
+.thing[data-fullname$="c"] > .likes > .arrow.upmod {
+    background-image: url(%%spider%%) !important;
+}
+.midcol .arrow.upmod:focus {
+    -webkit-animation: playbum 2s steps(48) 1;
+    -moz-animation: playbum 2s steps(48) 1;
+    -ms-animation: playbum 2s steps(48) 1;
+    -o-animation: playbum 2s steps(48) 1;
+    animation: playbum 2s steps(48) 1;
+}
+.arrow.down {
+    background-image: url(%%bf%%) !important;
+    background-position: -32px 0 !important;
+    height: 32px !important;
+    width: 32px !important;
+    opacity: 0.7 !important;
+}
+.arrow.downmod {
+    background-image: url(%%bf%%) !important;
+    background-position: 0 0 !important;
+    height: 32px !important;
+    width: 32px !important;
+}
+@-webkit-keyframes playbum {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -1536px;
+    }
+}
+@-moz-keyframes playbum {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -1536px;
+    }
+}
+@-ms-keyframes playbum {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -1536px;
+    }
+}
+@-o-keyframes playbum {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -1536px;
+    }
+}
+@keyframes playbum {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -1536px;
+    }
+}
+.comment .arrow.down:hover::after,
+.comment .arrow.downmod:hover::after {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    width: 210px;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    content: "Help keep community morale high - only downvote this comment if it adds no value. This is not a 'disagree' button.";
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 25px;
+    margin-top: 25px;
+    box-shadow: 3px 3px 3px #9C9B9B;
+    opacity: 1;
+}
+.midcol {
+    width: 40px !important;
+    overflow: shown;
+}
+/* /////////////////////////////////////////////////////////
+// LINK FLAIR TAGS
+//////////////////////////////////////////////////////////// */
+
+.linkflairlabel {
+    margin: 1px 4px 0 0;
+    padding: 2px 5px!important;
+    display: inline-block;
+    float: left;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: bold;
+    border: none;
+    background-color: #000;
+    max-width: 20em;
+}
+.linkflair-spoilers .linkflairlabel {
+    background-color: red!important;
+}
+.linkflair-devpost .linkflairlabel,
+.linkflair-3ds .linkflairlabel {
+    color: #fff!important;
+    background-color: green !important;
+}
+.linkflair-vanilla .linkflairlabel {
+    background-color: #000 !important;
+}
+.linkflair-vanilla .linkflairlabel:hover:after {
+    content: ' (Wrath of the Lamb)';
+    display: inline;
+    font-size: 8px;
+    margin-left: 4px;
+}
+.linkflair-mod .linkflairlabel {
+    background-color: blue !important;
+}
+.linkflair-idea .linkflairlabel {
+    background-color: orange !important;
+}
+.linkflair-seizurewarning .linkflairlabel {
+    background-color: maroon !important;
+}
+.linkflair-fanart .linkflairlabel {
+    background-color: purple !important;
+}
+.linkflair-discussion .linkflairlabel {
+    background-color: #072466!important;
+}
+.linkflair-afterbirth .linkflairlabel {
+    display: none !important;
+}
+.linkflair-afterbirthplus .linkflairlabel {
+    background-color: #6A5ACD !important;
+}
+.linkflair-awesome .linkflairlabel {
+    color: #871945 !important;
+    background-color: #FEDE58 !important;
+}
+.linkflair-awesome .linkflairlabel::before {
+    content: url(%%awesome%%);
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: .5ex;
+}
+.linkflair-analysis .linkflairlabel {
+    background-color: #589FFE !important;
+}
+.linkflair-technical .linkflairlabel {
+    background-color: #00CED1!important;
+}
+.linkflair-synergies .linkflairlabel {
+    background-color: #16A085!important;
+}
+.flairselector .linkflairlabel {
+    float: none !important;
+}
+.flairselector form button {
+    width: 100px;
+    height: 35px;
+    background-color: #369;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    line-height: 35px;
+    padding: 0;
+}
+.flairselector h2 {
+    display: none !important;
+}
+.side .flairoptionpane {
+    max-height: none!important;
+    height: 400px;
+}
+/* Link flair filters */
+
+html:lang(ff) .link:not(.linkflair-fanart) {
+    display: none;
+}
+html:lang(pr) .link:not(.linkflair-idea) {
+    display: none;
+}
+html:lang(dp) .link:not(.linkflair-discussion) {
+    display: none;
+}
+html:lang(qq) .link.linkflair-fanart {
+    display: none;
+}
+html:lang(fs) .link.linkflair-idea {
+    display: none;
+}
+html:lang(nf) .link.linkflair-fanart,
+html:lang(nf) .link.linkflair-idea {
+    display: none;
+}
+html:lang(vd) .link.linkflair-spoilers,
+html:lang(vd) .link.linkflair-afterbirth {
+    display: none;
+}
+.side .md blockquote ul {
+    position: absolute;
+    top: 156px;
+    left: 51px;
+    z-index: 9001;
+    list-style: none;
+    color: #369;
+    padding: 0 !important;
+    text-align: left;
+    text-transform: uppercase;
+    -webkit-transition: ease .5s all;
+    -moz-transition: ease .5s all;
+    -ms-transition: ease .5s all;
+    -o-transition: ease .5s all;
+    transition: ease .5s all;
+    height: 25px;
+}
+.side .md blockquote ul:hover {
+    height: 248px;
+}
+.side .md blockquote ul:hover li {
+    height: 30px;
+    border: 1px solid black;
+}
+.side .md blockquote ul:hover li a {
+    font-size: 11px;
+}
+.side .md blockquote ul li {
+    height: 0px;
+    line-height: 30px;
+    padding: 0 10px;
+    background: #fff;
+    transition: ease background 0.25s, ease height 0.25s;
+    font-weight: bold;
+    font-size: 11px;
+}
+.side .md blockquote ul li a {
+    font-size: 0;
+}
+.side .md blockquote ul li:hover {
+    background: #369;
+    color: #b4c4dd;
+}
+.side .md blockquote ul li:hover a {
+    color: #b4c4dd;
+}
+.side .md blockquote ul li:first-child {
+    width: 62px;
+    display: block;
+    background: #b4c4dd;
+    color: #369;
+    font-weight: bold;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    border: 2px solid #369;
+}
+html:lang(op) #header {
+    background-image: url(%%soul%%), url(%%soul2%%), url(%%soul3%%);
+    -webkit-animation: snow 30s linear infinite;
+    -moz-animation: snow 30s linear infinite;
+    -ms-animation: snow 30s linear infinite;
+    animation: snow 30s linear infinite;
+}
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+@-moz-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+@-webkit-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    50% {
+        background-color: #141414;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+        background-color: #141414;
+    }
+}
+@-ms-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+html:lang(op) div#header-bottom-left {
+    background-image: url(%%darkbum%%);
+    z-index: 900;
+    height: 146px;
+}
+.link.last-clicked {
+    overflow: visible!important;
+}
+/* /////////////////////////////////////////////////////////
+// FLAIR STYLES NEVER EDIT THIS PART
+//////////////////////////////////////////////////////////// */
+.flair,
+.link .flair {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    padding: 0;
+    border: none;
+    font-size: 0;
+    vertical-align: middle;
+    margin: 0 4px;
+    border-radius: 0;
+    display: inline-block !important;
+}
+.side .flairselector.active {
+    height: 400px!important;
+    width: 520px!important;
+    padding: 4px;
+    position: fixed!important;
+    top: 0!important;
+    left: 0!important;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 11111111111;
+    background-color: white;
+    box-shadow: 0 27px 24px 0 rgba(0,0,0,0.2),0 40px 77px 0 rgba(0,0,0,0.22);
+}
+.flairselector.active img {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
+.flairselector .customizer {
+    display: none !important;
+}
+.moderator .flairselector .customizer {
+    display: inline-block !important;
+}
+.moderator .flairselector .customizer input {
+    display: inline-block !important;
+}
+.flairselector .linkflair-awesome {
+    display: none;
+}
+.moderator .flairselector .linkflair-awesome {
+    display: block;
+}
+
+.flairselector .linkflair-afterbirthplus {
+    display: none;
+}
+.moderator .flairselector .linkflair-afterbirthplus {
+    display: block;
+}
+
+.flairselector .linkflair-technical {
+    display: none;
+}
+.moderator .flairselector .linkflair-technical {
+    display: block;
+}
+
+.flairselector .linkflair-devpost {
+    display: none;
+}
+.moderator .flairselector .linkflair-devpost {
+    display: block;
+}
+
+
+
+/* /////////////////////////////////////////////////////////
+// SPOILERS IN COMMENTS
+//////////////////////////////////////////////////////////// */
+
+a[href$="/spoiler"] {
+    background: #000 !important;
+    color: #000 !important;
+    border: 1px solid black;
+    padding-right: 1px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px
+}
+a[href$="/spoiler"]:hover {
+    color: #FFF !important
+}
+a[href$="/spoiler"]::before {
+    background: #FFF !important;
+    color: #000 !important;
+    padding: 0px 1px;
+    margin: 0px;
+    margin-right: 1px
+}
+a[href$="/spoiler"]::before {
+    content: "Spoiler"
+}
+a[href$="/spoiler"][title]::before {
+    content: attr(title) " Spoiler"
+}
+/* /////////////////////////////////////////////////
+// SPECIAL FLAIR TAGS
+//////////////////////////////////////////////////////////// */
+/* Moderators */
+
+.author[href$="/flying-sheep"]:after,
+.author[href$="/TokiyamoriTV"]:after,
+.author[href$="/elucidater"]:after,
+.author[href$="/Clapyourhandssayyeah"]:after {
+    content: "Mod";
+    border-radius: 4px;
+    margin-left: 5px;
+    color: #ff7847;
+}
+.author[href$="/IsaacDailyBot"]:after {
+    content: "Bot Mod";
+    border-radius: 4px;
+    margin-left: 5px;
+    color: #fa0500;
+}
+.thing .tagline .author.moderator[href$="/IsaacDailyBot"]:after {
+    color: yellow;
+}
+/* Official */
+
+.author[href$="/JamesId"]:after {
+    content: "Creator of BoI:R trailer";
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+/* Community */
+
+.author[href$="/garnco"]:after,
+.author[href$="/oldbob12"]:after,
+.author[href$="/lukeanator99"]:after,
+.author[href$="/salavander"]:after,
+.author[href$="/Nath_O"]:after {
+    content: "Remix Mod Dev";
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+.author[href$="/DoomZero755"]:after,
+.author[href$="/Doomspeaker"]:after,
+.author[href$="/Jsmooth13"]:after,
+.author[href$="/291"]:after{
+    content: "Wiki Admin";
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+.author[href$="/spider853"]:after {
+    content: "Creator of SpiderMod";
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+.author[href$="/ItsOppositeDayHere"]:after {
+    content: "Northernlion";
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+.author[href$="/RockLeeSmile"]:after {
+    content: "Nick / RockLeeSmile";
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+.author[href$="/bisnap"]:after {
+    content: "Bisnap";
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+.author[href$="/DrawingofIssac"]:after,
+.author[href$="/Guacster"]:after,
+.author[href$="/Memoski"]:after,
+.author[href$="/purplemew"]:after,
+.author[href$="/okimiko"]:after,
+.author[href$="/zenithstrife"]:after,
+.author[href$="/Sixelona"]:after,
+.author[href$="/breadmeat531"]:after,
+.author[href$="/Elkopolo"]:after,
+.author[href$="/SleepyBunny101"]:after,
+.author[href$="/NotYourSagittarius"]:after,
+.author[href$="/drcainwinter"]:after,
+.author[href$="/betawho"]:after,
+.author[href$="/Combjelly"]:after {
+    content: "Artist";
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+.author[href$="/gamesquid"]:after {
+    content: "Florian Himsl";
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+.author[href$="/simon574"]:after {
+    content: "Rebirth Dev";
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+.author[href$="/EdmundMcMillen"]:after,
+.author[href$="/TheEdmundm"]:after {
+    content: "Edmund (The Creator)";
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+.author[href$="/tyronerodriguez"]:after {
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid #0055DF;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: #369;
+    background-color: #fff;
+}
+.author[href$="/tyronerodriguez"]:after {
+    content: "Tyrone (Nicalis)";
+}
+/* /////////////////////////////////////////////////////////
+// SPOILERS IN CHAT
+//////////////////////////////////////////////////////////// */
+
+a[href$="/spoiler"] {
+    background: #CCCCCC!important;
+    color: #CCCCCC!important
+}
+a[href$="/spoiler"]:hover {
+    color: #000000!important
+}
+a[href="/s"] {
+    color: #222222;
+    background: #CCCCCC;
+    padding: 00;
+    cursor: text
+}
+a[href="/s"]:hover {
+    color: #8F8F8F
+}
+a[href="/s"]::after {
+    content: attr(title);
+    background: #CCCCCC;
+    color: #CCCCCC;
+    padding: 0px 10px 0px 10px
+}
+a[href="/s"]:hover::after,
+a[href="/s"]:active::after {
+    color: black
+}
+/* /////////////////////////////////////////////////////////
+// MISC. STYLES
+//////////////////////////////////////////////////////////// */
+/* hr padding */
+
+hr {
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+.create {
+    display: none
+}
+.flairtoggle {
+    visibility: hidden;
+    font-size: 0px !important;
+}
+.flairtoggle::after {
+    visibility: visible;
+    font-size: 11px !important;
+    content: 'Edit your Flair! It currently is :';
+}
+.flairtoggle input {
+    visibility: visible !important;
+}
+.titlebox form.flairtoggle {
+    background: #FFFFFF;
+    color: #000000;
+}
+body.res-nightmode:first-of-type .flair {
+    background-color: transparent!important;
+}
+body.res-nightmode .thing {
+    background: transparent;
+}
+body.res-nightmode #header,
+.res-nightmode .tabmenu li a,
+.res-nightmode ul.tabmenu li.selected a,
+.res-nightmode #header-bottom-right,
+.res-nightmode #sr-header-area {
+    background-color: #141414 !important;
+}
+.res-nightmode .commentarea {
+    background: rgba(24, 24, 24, 0.901961) !important;
+}
+/* Annoyingly small mod icons */
+
+.entry .buttons li.reported-stamp {
+    padding: 2px 10px;
+}
+.entry .big-mod-buttons a {
+    padding: 4px 12px;
+}
+
+.flair-angel {
+  transform: scale(1);
+  transition: transform 2s;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+.flair-angel:hover {
+  transform: scale(10);
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+body #baconBit {
+    left: 0%;
+    position: fixed;
+    z-index: 999999;
+
+    width:       calc(100vw / 2.844);               /* 450 */
+    height:      calc((100vw / 2.844) / 5.625);    /* 80  */
+    margin-top:  calc((100vw / 2.844) / 5.625);
+    margin-left: calc(-50% - (50vw / 2.844));
+
+    background-image: url(%%chub%%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-transition: all 2s cubic-bezier(0,1,1,0);
+    -o-transition:      all 2s cubic-bezier(0,1,1,0);
+    -moz-transition:    all 2s cubic-bezier(0,1,1,0);
+    /* Hide is probably not required but I'll leave it */
+    -webkit-animation:  speedDistortion 2s linear 0.5s 1, hide 0s ease-in 2.5s forwards;
+    -o-animation:       speedDistortion 2s linear 0.5s 1, hide 0s ease-in 2.5s forwards;
+    -moz-animation:     speedDistortion 2s linear 0.5s 1, hide 0s ease-in 2.5s forwards;
+
+}
+@-webkit-keyframes speedDistortion {
+    0% { -webkit-transform: scale(1.2,0.9) skewX(15deg);}
+    30% { -webkit-transform: scale(1,1) skewX(0deg);}
+    75% { -webkit-transform: scale(1,1) skewX(0deg);}
+    100% { -webkit-transform: scale(1.2,0.9)  skewX(15deg);}
+}
+@-o-keyframes speedDistortion {
+    0% { -o-transform: scale(1.2,0.9) skewX(15deg);}
+    30% { -o-transform: scale(1,1) skewX(0deg);}
+    75% { -o-transform: scale(1,1) skewX(0deg);}
+    100% { -o-transform: scale(1.2,0.9)  skewX(15deg);}
+}
+@-moz-keyframes speedDistortion {
+    0% { -moz-transform: scale(1.2,0.9) skewX(15deg);}
+    30% { -moz-transform: scale(1,1) skewX(0deg);}
+    75% { -moz-transform: scale(1,1) skewX(0deg);}
+    100% { -moz-transform: scale(1.2,0.9)  skewX(15deg);}
+}
+@-webkit-keyframes hide {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+@-o-keyframes hide {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+@-moz-keyframes hide {
+    to {
+        width:0px;
+        height:0px;
+        visibility:hidden;
+    }
+}
+body #baconBit.makeitrain {
+    top: -5%;
+    left: 200%;
+    -webkit-transform: rotate(0deg);
+    -o-transform:      rotate(0deg);
+    -moz-transform:    rotate(0deg);
+}
+/* /////////////////////////////////////////////////////////
+// Autowikibot
+//////////////////////////////////////////////////////////// */
+
+.comment .md h5+h6+h4~* {
+    transition: all .5s ease;
+    height: 0;
+    opacity: 0;
+}
+.comment .md:hover h5+h6+h4~* {
+    height: auto;
+    opacity: 1;
+}
+.comment .md h5+h6+h4~* a[href^="#"] {
+    background-image: none width: auto;
+    height: auto;
+    display: inline;
+    pointer-events: auto;
+}
+.comment .md h5+h6+h4~* {
+    content: "Autowikibot post. Hover to view";
+}
+.comment .md h5+h6+h4:after {
+    content: "Autowikibot post. Hover to view";
+}
+.comment .md:hover h5+h6+h4:after {
+    content: ""
+}
+/* /////////////////////////////////////////////////////////
+// MEDIA QUERIES
+//////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 1100px) {
+    #viewImagesButton {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .md h6 {
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .md h6 {
+        display: none;
+    }
+}
+/* Emoticons */
+/* Combining lowresguy's emotes with the item icons - The old flair sheet is no longer used to figure it was best to separate the two, hope you dont mind! -elucidater */
+
+.usertext-body a[href^="#"]:not(.noKeyNav) {
+    display: inline-block
+}
+.usertext-body a[href^="#"]:not(.noKeyNav),
+.livePreview a[href^="#"] {
+    background-image: url(%%itemicons%%);
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    pointer-events: none;
+    text-indent: -270791px;
+}
+a[href$="#1up"] {
+    background-position: 0px 0px;
+}
+a[href$="#3dollarbill"] {
+    background-position: -64px 0px;
+}
+a[href$="#9volt"] {
+    background-position: -128px 0px;
+}
+a[href$="#2020"] {
+    background-position: -192px 0px;
+}
+a[href$="#abaddon"] {
+    background-position: -256px 0px;
+}
+a[href$="#abel"] {
+    background-position: -320px 0px;
+}
+a[href$="#anarchistscookbook"] {
+    background-position: -384px 0px;
+}
+a[href$="#anemic"] {
+    background-position: -448px 0px;
+}
+a[href$="#ankh"] {
+    background-position: -512px 0px;
+}
+a[href$="#antigravity"] {
+    background-position: -576px 0px;
+}
+a[href$="#aquarius"] {
+    background-position: -640px 0px;
+}
+a[href$="#aries"] {
+    background-position: -704px 0px;
+}
+a[href$="#asnack"] {
+    background-position: -768px 0px;
+}
+a[href$="#bagofbombs"] {
+    background-position: -832px 0px;
+}
+a[href$="#ballofbandages"] {
+    background-position: -896px 0px;
+}
+a[href$="#balloftar"] {
+    background-position: -960px 0px;
+}
+a[href$="#battery"] {
+    background-position: -20224px 0px;
+}
+a[href$="#bbf"] {
+    background-position: -1024px 0px;
+}
+a[href$="#bean"] {
+    background-position: -1088px 0px;
+}
+a[href$="#belt"] {
+    background-position: -1152px 0px;
+}
+a[href$="#bestbud"] {
+    background-position: -1216px 0px;
+}
+a[href$="#bestfriend"] {
+    background-position: -1280px 0px;
+}
+a[href$="#bffs"] {
+    background-position: -1344px 0px;
+}
+a[href$="#bible"] {
+    background-position: -1408px 0px;
+}
+a[href$="#bigfan"] {
+    background-position: -1472px 0px;
+}
+a[href$="#blackbean"] {
+    background-position: -1536px 0px;
+}
+a[href$="#blackcandle"] {
+    background-position: -1600px 0px;
+}
+a[href$="#blacklotus"] {
+    background-position: -1664px 0px;
+}
+a[href$="#blankcard"] {
+    background-position: -1728px 0px;
+}
+a[href$="#bloodbag"] {
+    background-position: -1792px 0px;
+}
+a[href$="#bloodclot"] {
+    background-position: -1856px 0px;
+}
+a[href$="#bloodofthemartyr"] {
+    background-position: -1920px 0px;
+}
+a[href$="#bloodrights"] {
+    background-position: -1984px 0px;
+}
+a[href$="#bloodylust"] {
+    background-position: -2048px 0px;
+}
+a[href$="#bluebabysonlyfriend"] {
+    background-position: -2112px 0px;
+}
+a[href$="#bluecap"] {
+    background-position: -2176px 0px;
+}
+a[href$="#bluemap"] {
+    background-position: -2240px 0px;
+}
+a[href$="#bobbybomb"] {
+    background-position: -2304px 0px;
+}
+a[href$="#bobsbrain"] {
+    background-position: -2368px 0px;
+}
+a[href$="#bobscurse"] {
+    background-position: -2432px 0px;
+}
+a[href$="#bobsrottenhead"] {
+    background-position: -2496px 0px;
+}
+a[href$="#bogobombs"] {
+    background-position: -2560px 0px;
+}
+a[href$="#bookofbelial"] {
+    background-position: -2624px 0px;
+}
+a[href$="#bookofrevelations"] {
+    background-position: -2688px 0px;
+}
+a[href$="#bookofsecrets"] {
+    background-position: -2752px 0px;
+}
+a[href$="#bookofshadows"] {
+    background-position: -2816px 0px;
+}
+a[href$="#bookofsin"] {
+    background-position: -2880px 0px;
+}
+a[href$="#boom"] {
+    background-position: -2944px 0px;
+}
+a[href$="#boomerang"] {
+    background-position: -3008px 0px;
+}
+a[href$="#box"] {
+    background-position: -3072px 0px;
+}
+a[href$="#boxofspiders"] {
+    background-position: -3136px 0px;
+}
+a[href$="#breakfast"] {
+    background-position: -3200px 0px;
+}
+a[href$="#breathoflife"] {
+    background-position: -3264px 0px;
+}
+a[href$="#brimstone"] {
+    background-position: -3328px 0px;
+}
+a[href$="#brokenstopwatch"] {
+    background-position: -3392px 0px;
+}
+a[href$="#brotherbobby"] {
+    background-position: -3456px 0px;
+}
+a[href$="#bucketoflard"] {
+    background-position: -3520px 0px;
+}
+a[href$="#bumfriend"] {
+    background-position: -3584px 0px;
+}
+a[href$="#buttbombs"] {
+    background-position: -3648px 0px;
+}
+a[href$="#butterbean"] {
+    background-position: -3712px 0px;
+}
+a[href$="#caffeinepill"] {
+    background-position: -3776px 0px;
+}
+a[href$="#cainsothereye"] {
+    background-position: -3840px 0px;
+}
+a[href$="#cancer"] {
+    background-position: -3904px 0px;
+}
+a[href$="#candle"] {
+    background-position: -3968px 0px;
+}
+a[href$="#capricorn"] {
+    background-position: -4032px 0px;
+}
+a[href$="#catoninetails"] {
+    background-position: -4096px 0px;
+}
+a[href$="#celticcross"] {
+    background-position: -4160px 0px;
+}
+a[href$="#ceremonialrobes"] {
+    background-position: -4224px 0px;
+}
+a[href$="#championbelt"] {
+    background-position: -4288px 0px;
+}
+a[href$="#charmofthevampire"] {
+    background-position: -4352px 0px;
+}
+a[href$="#chemicalpeel"] {
+    background-position: -4416px 0px;
+}
+a[href$="#chocolatemilk"] {
+    background-position: -4480px 0px;
+}
+a[href$="#commoncold"] {
+    background-position: -4544px 0px;
+}
+a[href$="#compass"] {
+    background-position: -4608px 0px;
+}
+a[href$="#contractfrombelow"] {
+    background-position: -4672px 0px;
+}
+a[href$="#converter"] {
+    background-position: -4736px 0px;
+}
+a[href$="#crackthesky"] {
+    background-position: -4800px 0px;
+}
+a[href$="#cricketsbody"] {
+    background-position: -4864px 0px;
+}
+a[href$="#cricketshead"] {
+    background-position: -4928px 0px;
+}
+a[href$="#crystalball"] {
+    background-position: -4992px 0px;
+}
+a[href$="#cubeofmeat"] {
+    background-position: -5056px 0px;
+}
+a[href$="#cupidsarrow"] {
+    background-position: -5120px 0px;
+}
+a[href$="#cursedeye"] {
+    background-position: -5184px 0px;
+}
+a[href$="#d4"] {
+    background-position: -5248px 0px;
+}
+a[href$="#d6"] {
+    background-position: -5312px 0px;
+}
+a[href$="#d10"] {
+    background-position: -5376px 0px;
+}
+a[href$="#d20"] {
+    background-position: -5440px 0px;
+}
+a[href$="#d100"] {
+    background-position: -5504px 0px;
+}
+a[href$="#daddylonglegs"] {
+    background-position: -5568px 0px;
+}
+a[href$="#dadskey"] {
+    background-position: -5632px 0px;
+}
+a[href$="#darkbum"] {
+    background-position: -5696px 0px;
+}
+a[href$="#darkmatter"] {
+    background-position: -5760px 0px;
+}
+a[href$="#deadcat"] {
+    background-position: -5824px 0px;
+}
+a[href$="#deadbird"] {
+    background-position: -5888px 0px;
+}
+a[href$="#deaddove"] {
+    background-position: -5952px 0px;
+}
+a[href$="#deadonion"] {
+    background-position: -6016px 0px;
+}
+a[href$="#deadseascrolls"] {
+    background-position: -6080px 0px;
+}
+a[href$="#deathstouch"] {
+    background-position: -6144px 0px;
+}
+a[href$="#deckofcards"] {
+    background-position: -6208px 0px;
+}
+a[href$="#demonbaby"] {
+    background-position: -6272px 0px;
+}
+a[href$="#dessert"] {
+    background-position: -6336px 0px;
+}
+a[href$="#dinner"] {
+    background-position: -6400px 0px;
+}
+a[href$="#distantadmiration"] {
+    background-position: -6464px 0px;
+}
+a[href$="#doctorsremote"] {
+    background-position: -6528px 0px;
+}
+a[href$="#dollar"] {
+    background-position: -6592px 0px;
+}
+a[href$="#drfetus"] {
+    background-position: -6656px 0px;
+}
+a[href$="#drybaby"] {
+    background-position: -6720px 0px;
+}
+a[href$="#ecoli"] {
+    background-position: -6784px 0px;
+}
+a[href$="#epicfetus"] {
+    background-position: -6848px 0px;
+}
+a[href$="#evesmascara"] {
+    background-position: -6912px 0px;
+}
+a[href$="#experimentaltreatment"] {
+    background-position: -6976px 0px;
+}
+a[href$="#fannypack"] {
+    background-position: -7040px 0px;
+}
+a[href$="#fate"] {
+    background-position: -7104px 0px;
+}
+a[href$="#firemind"] {
+    background-position: -7168px 0px;
+}
+a[href$="#flush"] {
+    background-position: -7232px 0px;
+}
+a[href$="#foreveralone"] {
+    background-position: -7296px 0px;
+}
+a[href$="#forgetmenow"] {
+    background-position: -7360px 0px;
+}
+a[href$="#gamekid"] {
+    background-position: -7424px 0px;
+}
+a[href$="#gemini"] {
+    background-position: -7488px 0px;
+}
+a[href$="#ghostbaby"] {
+    background-position: -7552px 0px;
+}
+a[href$="#gimpy"] {
+    background-position: -7616px 0px;
+}
+a[href$="#gnawedleaf"] {
+    background-position: -7680px 0px;
+}
+a[href$="#goathead"] {
+    background-position: -7744px 0px;
+}
+a[href$="#godhead"] {
+    background-position: -7808px 0px;
+}
+a[href$="#growthhormones"] {
+    background-position: -7872px 0px;
+}
+a[href$="#guardianangel"] {
+    background-position: -7936px 0px;
+}
+a[href$="#guillotine"] {
+    background-position: -8000px 0px;
+}
+a[href$="#guppyscollar"] {
+    background-position: -8064px 0px;
+}
+a[href$="#guppyshairball"] {
+    background-position: -8128px 0px;
+}
+a[href$="#guppyshead"] {
+    background-position: -8192px 0px;
+}
+a[href$="#guppyspaw"] {
+    background-position: -8256px 0px;
+}
+a[href$="#guppystail"] {
+    background-position: -8320px 0px;
+}
+a[href$="#habit"] {
+    background-position: -8384px 0px;
+}
+a[href$="#halo"] {
+    background-position: -8448px 0px;
+}
+a[href$="#haloofflies"] {
+    background-position: -8512px 0px;
+}
+a[href$="#harlequinbaby"] {
+    background-position: -8576px 0px;
+}
+a[href$="#headlessbaby"] {
+    background-position: -8640px 0px;
+}
+a[href$="#hivemind"] {
+    background-position: -8704px 0px;
+}
+a[href$="#holygrail"] {
+    background-position: -8768px 0px;
+}
+a[href$="#holymantle"] {
+    background-position: -8832px 0px;
+}
+a[href$="#holywater"] {
+    background-position: -8896px 0px;
+}
+a[href$="#hotbombs"] {
+    background-position: -8960px 0px;
+}
+a[href$="#hourglass"] {
+    background-position: -9024px 0px;
+}
+a[href$="#howtojump"] {
+    background-position: -9088px 0px;
+}
+a[href$="#humbleingbundle"] {
+    background-position: -9152px 0px;
+}
+a[href$="#infamy"] {
+    background-position: -9216px 0px;
+}
+a[href$="#infestation"] {
+    background-position: -9280px 0px;
+}
+a[href$="#infestation2"] {
+    background-position: -9344px 0px;
+}
+a[href$="#innereye"] {
+    background-position: -9408px 0px;
+}
+a[href$="#ipecac"] {
+    background-position: -9472px 0px;
+}
+a[href$="#ironbar"] {
+    background-position: -9536px 0px;
+}
+a[href$="#isaacsheart"] {
+    background-position: -9600px 0px;
+}
+a[href$="#isaacstears"] {
+    background-position: -9664px 0px;
+}
+a[href$="#ivbag"] {
+    background-position: -9728px 0px;
+}
+a[href$="#jar"] {
+    background-position: -9792px 0px;
+}
+a[href$="#jesusjuice"] {
+    background-position: -9856px 0px;
+}
+a[href$="#judasshadow"] {
+    background-position: -9920px 0px;
+}
+a[href$="#juicysack"] {
+    background-position: -9984px 0px;
+}
+a[href$="#kamikaze"] {
+    background-position: -10048px 0px;
+}
+a[href$="#keypiece1"] {
+    background-position: -10112px 0px;
+}
+a[href$="#keypiece2"] {
+    background-position: -10176px 0px;
+}
+a[href$="#krampushead"] {
+    background-position: -10240px 0px;
+}
+a[href$="#ladder"] {
+    background-position: -10304px 0px;
+}
+a[href$="#latchkey"] {
+    background-position: -10368px 0px;
+}
+a[href$="#lazarusrags"] {
+    background-position: -10432px 0px;
+}
+a[href$="#leech"] {
+    background-position: -10496px 0px;
+}
+a[href$="#lemonmishap"] {
+    background-position: -10560px 0px;
+}
+a[href$="#leo"] {
+    background-position: -10624px 0px;
+}
+a[href$="#lessthanthree"] {
+    background-position: -10688px 0px;
+}
+a[href$="#libra"] {
+    background-position: -10752px 0px;
+}
+a[href$="#lilbrimstone"] {
+    background-position: -10816px 0px;
+}
+a[href$="#lilhaunt"] {
+    background-position: -10880px 0px;
+}
+a[href$="#littlebaggy"] {
+    background-position: -10944px 0px;
+}
+a[href$="#littlechad"] {
+    background-position: -11008px 0px;
+}
+a[href$="#littlechubby"] {
+    background-position: -11072px 0px;
+}
+a[href$="#littlegish"] {
+    background-position: -11136px 0px;
+}
+a[href$="#littlesteven"] {
+    background-position: -11200px 0px;
+}
+a[href$="#lokishorns"] {
+    background-position: -11264px 0px;
+}
+a[href$="#lordofthepit"] {
+    background-position: -11328px 0px;
+}
+a[href$="#lostcontact"] {
+    background-position: -11392px 0px;
+}
+a[href$="#luckyfoot"] {
+    background-position: -11456px 0px;
+}
+a[href$="#ludovicotechnique"] {
+    background-position: -11520px 0px;
+}
+a[href$="#lumpofcoal"] {
+    background-position: -11584px 0px;
+}
+a[href$="#lunch"] {
+    background-position: -11648px 0px;
+}
+a[href$="#maggysbow"] {
+    background-position: -11712px 0px;
+}
+a[href$="#magic8ball"] {
+    background-position: -11776px 0px;
+}
+a[href$="#magicfingers"] {
+    background-position: -11840px 0px;
+}
+a[href$="#magicmushroom"] {
+    background-position: -11904px 0px;
+}
+a[href$="#magicscab"] {
+    background-position: -11968px 0px;
+}
+a[href$="#magneto"] {
+    background-position: -12032px 0px;
+}
+a[href$="#mark"] {
+    background-position: -12096px 0px;
+}
+a[href$="#matchbook"] {
+    background-position: -12160px 0px;
+}
+a[href$="#meat"] {
+    background-position: -12224px 0px;
+}
+a[href$="#midastouch"] {
+    background-position: -12288px 0px;
+}
+a[href$="#minimush"] {
+    background-position: -12352px 0px;
+}
+a[href$="#missingno"] {
+    background-position: -12416px 0px;
+}
+a[href$="#missingpage2"] {
+    background-position: -12480px 0px;
+}
+a[href$="#mitre"] {
+    background-position: -12544px 0px;
+}
+a[href$="#momsbottleofpills"] {
+    background-position: -12608px 0px;
+}
+a[href$="#momsbra"] {
+    background-position: -12672px 0px;
+}
+a[href$="#momscoinpurse"] {
+    background-position: -12736px 0px;
+}
+a[href$="#momscontacts"] {
+    background-position: -12800px 0px;
+}
+a[href$="#momseye"] {
+    background-position: -12864px 0px;
+}
+a[href$="#momseyeshadow"] {
+    background-position: -12928px 0px;
+}
+a[href$="#momsheels"] {
+    background-position: -12992px 0px;
+}
+a[href$="#momskey"] {
+    background-position: -13056px 0px;
+}
+a[href$="#momsknife"] {
+    background-position: -13120px 0px;
+}
+a[href$="#momslipstick"] {
+    background-position: -13184px 0px;
+}
+a[href$="#momspad"] {
+    background-position: -13248px 0px;
+}
+a[href$="#momsperfume"] {
+    background-position: -13312px 0px;
+}
+a[href$="#momspurse"] {
+    background-position: -13376px 0px;
+}
+a[href$="#momsunderwear"] {
+    background-position: -13440px 0px;
+}
+a[href$="#momswig"] {
+    background-position: -13504px 0px;
+}
+a[href$="#moneypower"] {
+    background-position: -13568px 0px;
+}
+a[href$="#mongobaby"] {
+    background-position: -13632px 0px;
+}
+a[href$="#monstermanual"] {
+    background-position: -13696px 0px;
+}
+a[href$="#monstroslung"] {
+    background-position: -13760px 0px;
+}
+a[href$="#monstrostooth"] {
+    background-position: -13824px 0px;
+}
+a[href$="#mrboom"] {
+    background-position: -13888px 0px;
+}
+a[href$="#mrmega"] {
+    background-position: -13952px 0px;
+}
+a[href$="#mulligan"] {
+    background-position: -14016px 0px;
+}
+a[href$="#mutantspider"] {
+    background-position: -14080px 0px;
+}
+a[href$="#mylittleunicorn"] {
+    background-position: -14144px 0px;
+}
+a[href$="#myreflection"] {
+    background-position: -14208px 0px;
+}
+a[href$="#mysteriousliquid"] {
+    background-position: -14272px 0px;
+}
+a[href$="#mysterysack"] {
+    background-position: -14336px 0px;
+}
+a[href$="#nail"] {
+    background-position: -14400px 0px;
+}
+a[href$="#necronomicon"] {
+    background-position: -14464px 0px;
+}
+a[href$="#negative"] {
+    background-position: -14528px 0px;
+}
+a[href$="#notchedaxe"] {
+    background-position: -14592px 0px;
+}
+a[href$="#numberone"] {
+    background-position: -14656px 0px;
+}
+a[href$="#oddmushroomthick"] {
+    background-position: -14720px 0px;
+}
+a[href$="#oddmushroomthin"] {
+    background-position: -14784px 0px;
+}
+a[href$="#oldbandage"] {
+    background-position: -14848px 0px;
+}
+a[href$="#ouijaboard"] {
+    background-position: -14912px 0px;
+}
+a[href$="#pact"] {
+    background-position: -14976px 0px;
+}
+a[href$="#pageantboy"] {
+    background-position: -15040px 0px;
+}
+a[href$="#pandorasbox"] {
+    background-position: -15104px 0px;
+}
+a[href$="#parasite"] {
+    background-position: -15168px 0px;
+}
+a[href$="#peeper"] {
+    background-position: -15232px 0px;
+}
+a[href$="#pentagram"] {
+    background-position: -15296px 0px;
+}
+a[href$="#phd"] {
+    background-position: -15360px 0px;
+}
+a[href$="#piggybank"] {
+    background-position: -15424px 0px;
+}
+a[href$="#pinkingshears"] {
+    background-position: -15488px 0px;
+}
+a[href$="#pisces"] {
+    background-position: -15552px 0px;
+}
+a[href$="#placenta"] {
+    background-position: -15616px 0px;
+}
+a[href$="#polaroid"] {
+    background-position: -15680px 0px;
+}
+a[href$="#polyphemus"] {
+    background-position: -15744px 0px;
+}
+a[href$="#pony"] {
+    background-position: -15808px 0px;
+}
+a[href$="#poop"] {
+    background-position: -15872px 0px;
+}
+a[href$="#portableslot"] {
+    background-position: -15936px 0px;
+}
+a[href$="#prayercard"] {
+    background-position: -16000px 0px;
+}
+a[href$="#proptosis"] {
+    background-position: -16064px 0px;
+}
+a[href$="#punchingbag"] {
+    background-position: -16128px 0px;
+}
+a[href$="#pyro"] {
+    background-position: -16192px 0px;
+}
+a[href$="#pyromaniac"] {
+    background-position: -16256px 0px;
+}
+a[href$="#quarter"] {
+    background-position: -16320px 0px;
+}
+a[href$="#rainbowbaby"] {
+    background-position: -16384px 0px;
+}
+a[href$="#rawliver"] {
+    background-position: -16448px 0px;
+}
+a[href$="#razorblade"] {
+    background-position: -16512px 0px;
+}
+a[href$="#redcandle"] {
+    background-position: -16576px 0px;
+}
+a[href$="#relic"] {
+    background-position: -16640px 0px;
+}
+a[href$="#remotedetonator"] {
+    background-position: -16704px 0px;
+}
+a[href$="#robobaby"] {
+    background-position: -16768px 0px;
+}
+a[href$="#robobaby20"] {
+    background-position: -16832px 0px;
+}
+a[href$="#roidrage"] {
+    background-position: -16896px 0px;
+}
+a[href$="#rosary"] {
+    background-position: -16960px 0px;
+}
+a[href$="#rottenbaby"] {
+    background-position: -17024px 0px;
+}
+a[href$="#rottenmeat"] {
+    background-position: -17088px 0px;
+}
+a[href$="#rubbercement"] {
+    background-position: -17152px 0px;
+}
+a[href$="#sackofpennies"] {
+    background-position: -17216px 0px;
+}
+a[href$="#sacredheart"] {
+    background-position: -17280px 0px;
+}
+a[href$="#sacrificialdagger"] {
+    background-position: -17344px 0px;
+}
+a[href$="#sadbombs"] {
+    background-position: -17408px 0px;
+}
+a[href$="#sadonion"] {
+    background-position: -17472px 0px;
+}
+a[href$="#safetypin"] {
+    background-position: -17536px 0px;
+}
+a[href$="#sagittarius"] {
+    background-position: -17600px 0px;
+    width: 58px !important;
+}
+a[href$="#samsonschains"] {
+    background-position: -17664px 0px;
+}
+a[href$="#satanicbible"] {
+    background-position: -17728px 0px;
+}
+a[href$="#scapular"] {
+    background-position: -17792px 0px;
+}
+a[href$="#scissors"] {
+    background-position: -17856px 0px;
+}
+a[href$="#scorpio"] {
+    background-position: -17920px 0px;
+}
+a[href$="#screw"] {
+    background-position: -17984px 0px;
+}
+a[href$="#sharpplug"] {
+    background-position: -18048px 0px;
+}
+a[href$="#shoopdawhoop"] {
+    background-position: -18112px 0px;
+}
+a[href$="#sissylonglegs"] {
+    background-position: -18176px 0px;
+}
+a[href$="#sistermaggy"] {
+    background-position: -18240px 0px;
+}
+a[href$="#skatole"] {
+    background-position: -18304px 0px;
+}
+a[href$="#skeletonkey"] {
+    background-position: -18368px 0px;
+}
+a[href$="#smallrock"] {
+    background-position: -18432px 0px;
+}
+a[href$="#smartfly"] {
+    background-position: -18496px 0px;
+}
+a[href$="#smbsuperfan"] {
+    background-position: -18560px 0px;
+}
+a[href$="#soymilk"] {
+    background-position: -18624px 0px;
+}
+a[href$="#speedball"] {
+    background-position: -18688px 0px;
+}
+a[href$="#spelunkerhat"] {
+    background-position: -18752px 0px;
+}
+a[href$="#spiderbaby"] {
+    background-position: -18816px 0px;
+}
+a[href$="#spiderbite"] {
+    background-position: -18880px 0px;
+}
+a[href$="#spiderbutt"] {
+    background-position: -18944px 0px;
+}
+a[href$="#spiritofthenight"] {
+    background-position: -19008px 0px;
+}
+a[href$="#spoonbender"] {
+    background-position: -19072px 0px;
+}
+a[href$="#squeezy"] {
+    background-position: -19136px 0px;
+}
+a[href$="#starterdeck"] {
+    background-position: -19200px 0px;
+}
+a[href$="#steamsale"] {
+    background-position: -19264px 0px;
+}
+a[href$="#stemcells"] {
+    background-position: -19328px 0px;
+}
+a[href$="#steven"] {
+    background-position: -19392px 0px;
+}
+a[href$="#stigmata"] {
+    background-position: -19456px 0px;
+}
+a[href$="#stopwatch"] {
+    background-position: -19520px 0px;
+}
+a[href$="#strangeattractor"] {
+    background-position: -19584px 0px;
+}
+a[href$="#superbandage"] {
+    background-position: -19648px 0px;
+}
+a[href$="#synthoil"] {
+    background-position: -19712px 0px;
+}
+a[href$="#tammyshead"] {
+    background-position: -19776px 0px;
+}
+a[href$="#taurus"] {
+    background-position: -19840px 0px;
+}
+a[href$="#tech5"] {
+    background-position: -19904px 0px;
+}
+a[href$="#technology"] {
+    background-position: -19968px 0px;
+}
+a[href$="#technology2"] {
+    background-position: -20032px 0px;
+}
+a[href$="#telepathyfordummies"] {
+    background-position: -20096px 0px;
+}
+a[href$="#teleport"] {
+    background-position: -20160px 0px;
+}
+a[href$="#thebody"] {
+    background-position: -20288px 0px;
+}
+a[href$="#themind"] {
+    background-position: -20352px 0px;
+}
+a[href$="#theresoptions"] {
+    background-position: -20416px 0px;
+}
+a[href$="#thesoul"] {
+    background-position: -20480px 0px;
+}
+a[href$="#thunderthighs"] {
+    background-position: -20608px 0px;
+}
+a[href$="#tinyplanet"] {
+    background-position: -20672px 0px;
+}
+a[href$="#toothpicks"] {
+    background-position: -20736px 0px;
+}
+a[href$="#tornphoto"] {
+    background-position: -20800px 0px;
+}
+a[href$="#toughlove"] {
+    background-position: -20864px 0px;
+}
+a[href$="#transcendence"] {
+    background-position: -20928px 0px;
+}
+a[href$="#treasuremap"] {
+    background-position: -20992px 0px;
+}
+a[href$="#trinityshield"] {
+    background-position: -21056px 0px;
+}
+a[href$="#undefined"] {
+    background-position: -21120px 0px;
+}
+a[href$="#unicornstump"] {
+    background-position: -21184px 0px;
+}
+a[href$="#virgo"] {
+    background-position: -21248px 0px;
+}
+a[href$="#virus"] {
+    background-position: -20544px 0px;
+}
+a[href$="#wafer"] {
+    background-position: -21312px 0px;
+}
+a[href$="#weneedtogodeeper"] {
+    background-position: -21376px 0px;
+}
+a[href$="#whitepony"] {
+    background-position: -21440px 0px;
+}
+a[href$="#whoreofbabylon"] {
+    background-position: -21504px 0px;
+}
+a[href$="#wirecoathanger"] {
+    background-position: -21568px 0px;
+}
+a[href$="#woodenspoon"] {
+    background-position: -21632px 0px;
+}
+a[href$="#xrayvision"] {
+    background-position: -21696px 0px;
+}
+a[href$="#yumheart"] {
+    background-position: -21760px 0px;
+}
+a[href$="#idea"],
+a[href$="#IDEA"],
+a[href$="#Idea"] {
+    background-position: -21824px 0px;
+    width: 125px !important;
+    height: 32px !important;
+}
+a[href$="#balance"],
+a[href$="#BALANCE"],
+a[href$="#Balance"] {
+    background-position: -21949px 0px;
+    width: 125px !important;
+    height: 32px !important;
+}
+a[href$="#bugreport"],
+a[href$="#bug"] {
+    background-position: -22074px 0px;
+    width: 125px !important;
+    height: 32px !important;
+}
+a[href$="#isaacthumb"] {
+    background-position: -22199px 0px;
+    width: 66px !important;
+}
+a[href$="#isaacmaxshead"] {
+    background-position: -22265px 0px;
+    width: 56px !important;
+}
+a[href$="#isaacnumberone"] {
+    background-position: -22321px 0px;
+    width: 56px !important;
+}
+a[href$="#isaac3dollarbill"] {
+    background-position: -22377px 0px;
+    width: 56px !important;
+}
+a[href$="#isaacspeedball"] {
+    background-position: -22433px 0px;
+    width: 56px !important;
+}
+a[href$="#isaacsad"] {
+    background-position: -22489px 0px;
+    width: 56px !important;
+}
+a[href$="#evethumb"] {
+    background-position: -22545px 0px;
+    width: 62px !important;
+}
+a[href$="#pacman"] {
+    background-position: -22607px 0px;
+    width: 52px !important;
+}
+a[href$="#shoopface"] {
+    background-position: -22659px 0px;
+    width: 56px !important;
+}
+a[href$="#moneyshades"] {
+    background-position: -22715px 0px;
+    width: 56px !important;
+}
+a[href$="#isaacroidrage"] {
+    background-position: -22771px 0px;
+    width: 56px !important;
+}
+a[href$="#isaacipecac"] {
+    background-position: -22827px 0px;
+    width: 56px !important;
+}
+a[href$="#isaacstatue"] {
+    background-position: -22883px 0px;
+    width: 56px !important;
+}
+a[href$="#isaacpyro"] {
+    background-position: -22939px 0px;
+    width: 56px !important;
+}
+a[href$="#isaacdeath"] {
+    background-position: -22995px 0px;
+    width: 58px !important;
+}
+a[href$="#guppy"] {
+    background-position: -23111px 0px;
+}
+a[href$="#ruawizard"] {
+    background-position: -23175px 0px;
+    width: 56px !important;
+}
+a[href$="#isaachood"] {
+    background-position: -23231px 0px;
+}
+a[href$="#isaacgimpy"] {
+    background-position: -23295px 0px;
+    width: 56px !important;
+}
+a[href$="#isaacgodhead"] {
+    background-position: -23351px 0px;
+    width: 56px !important;
+}
+a[href$="#envy"] {
+    background-position: -23407px 0px;
+    width: 56px !important;
+}
+a[href$="#gluttony"] {
+    background-position: -23463px 0px;
+    width: 58px !important;
+}
+a[href$="#greed"] {
+    background-position: -23521px 0px;
+    width: 56px !important;
+}
+a[href$="#lust"] {
+    background-position: -23577px 0px;
+    width: 55px !important;
+}
+a[href$="#pride"] {
+    background-position: -23632px 0px;
+    width: 56px !important;
+}
+a[href$="#wrath"] {
+    background-position: -23688px 0px;
+    width: 56px !important;
+}
+.md:hover a[href$="#sagittarius"] {
+    background-position: -24066px 0px;
+    width: 58px !important;
+}
+a[href$="#dip"] {
+    background-position: -23744px 0px;
+}
+.md:hover a[href$="#dip"] {
+    -webkit-animation: dip .4s steps(5) infinite;
+    -moz-animation: dip .4s steps(5) infinite;
+    -ms-animation: dip .4s steps(5) infinite;
+    -o-animation: dip .4s steps(5) infinite;
+    animation: dip .4s steps(5) infinite;
+}
+a[href$="#spider"] {
+    background-position: -24121px 0px;
+    width: 64px !important;
+}
+a[href$="#itlives"] {
+    background-position: -24187px 0px;
+}
+@-webkit-keyframes dip {
+    from {
+        background-position: -23744px;
+    }
+    to {
+        background-position: -24064px;
+    }
+}
+@-moz-keyframes dip {
+    from {
+        background-position: -23744px;
+    }
+    to {
+        background-position: -24064px;
+    }
+}
+@-ms-keyframes dip {
+    from {
+        background-position: -23744px;
+    }
+    to {
+        background-position: -24064px;
+    }
+}
+@-o-keyframes dip {
+    from {
+        background-position: -23744px;
+    }
+    to {
+        background-position: -24064px;
+    }
+}
+@keyframes dip {
+    from {
+        background-position: -23744px;
+    }
+    to {
+        background-position: -24064px;
+    }
+}
+
+
+
+/* MAIL ICONS */
+
+#mail img {
+    display: none
+}
+#mail.havemail {
+    background: url(%%mailNew%%) no-repeat bottom center;
+    width: 15px;
+    height: 15px !important;
+    display: inline-block
+}
+#mail.nohavemail {
+    background: url(%%mail%%) no-repeat bottom center;
+    width: 15px;
+    height: 15px !important;
+    display: inline-block
+}
+
+#modmail img {
+    display: none
+}
+#modmail.havemail {
+    background: url(%%modmailNew%%) no-repeat bottom center;
+    width: 16px;
+    height: 14px !important;
+    display: inline-block
+}
+#modmail.nohavemail {
+    background: url(%%modmail%%) no-repeat bottom center;
+    width: 16px;
+    height: 14px !important;
+    display: inline-block
+}
+
+
+
+/* /////////////////////////////////////////////////////////
+// FLAIR STYLES - REPLACE ALL THIS BELOW WHEN ADDING NEW FLAIRS
+//////////////////////////////////////////////////////////// */
+
 .flair {
-    background-image: url(spritesheet.png);
+    background-image: url(%%flair%%);
     background-repeat: no-repeat;
     display: block;
+}
+
+.flair-1001 {
+    width: 32px;
+    height: 32px;
+    background-position: 0 0;
 }
 
 .flair-109 {
     width: 29px;
     height: 12px;
-    background-position: 0 0;
+    background-position: -32px 0;
 }
 
 .flair-abel {
     width: 23px;
     height: 21px;
-    background-position: -29px 0;
+    background-position: -61px 0;
 }
 
 .flair-anarchistcookbook {
     width: 32px;
     height: 32px;
-    background-position: -52px 0;
+    background-position: -84px 0;
 }
 
 .flair-angel {
     width: 136px;
     height: 82px;
-    background-position: -84px 0;
+    background-position: -116px 0;
 }
 
 .flair-angrydingle {
     width: 68px;
     height: 36px;
-    background-position: -220px 0;
+    background-position: -252px 0;
 }
 
 .flair-azazel {
     width: 28px;
     height: 35px;
-    background-position: -288px 0;
+    background-position: -320px 0;
 }
 
 .flair-babyisaac {
     width: 28px;
     height: 33px;
-    background-position: -316px 0;
+    background-position: -348px 0;
 }
 
 .flair-badposter {
     width: 121px;
     height: 20px;
-    background-position: -344px 0;
+    background-position: -376px 0;
 }
 
 .flair-bandagegirl {
     width: 25px;
     height: 28px;
-    background-position: -465px 0;
+    background-position: -32px -20px;
 }
 
 .flair-basementboy {
     width: 34px;
     height: 33px;
-    background-position: -344px -20px;
+    background-position: -376px -20px;
 }
 
 .flair-bbf {
     width: 24px;
     height: 24px;
-    background-position: 0 -28px;
+    background-position: -410px -20px;
 }
 
 .flair-bean {
     width: 32px;
     height: 32px;
-    background-position: -378px -20px;
+    background-position: -434px -20px;
 }
 
 .flair-bigfan {
     width: 24px;
     height: 24px;
-    background-position: -24px -28px;
+    background-position: -466px -20px;
 }
 
 .flair-binky {
     width: 32px;
     height: 32px;
-    background-position: -410px -20px;
+    background-position: 0 -44px;
 }
 
 .flair-bird {
     width: 19px;
     height: 18px;
-    background-position: -442px -28px;
+    background-position: -490px -20px;
 }
 
 .flair-blackbony {
     width: 28px;
     height: 25px;
-    background-position: -461px -28px;
+    background-position: -57px -38px;
 }
 
 .flair-blackheart {
     width: 16px;
     height: 13px;
-    background-position: 0 -53px;
+    background-position: -85px -38px;
 }
 
 .flair-blast {
     width: 24px;
     height: 22px;
-    background-position: -16px -53px;
+    background-position: -252px -44px;
 }
 
 .flair-blighted {
     width: 31px;
     height: 39px;
-    background-position: -40px -53px;
+    background-position: -276px -38px;
 }
 
 .flair-bloat {
     width: 35px;
     height: 30px;
-    background-position: -220px -53px;
+    background-position: -307px -44px;
 }
 
 .flair-bob {
     width: 28px;
     height: 25px;
-    background-position: -255px -53px;
+    background-position: -342px -38px;
 }
 
 .flair-bobsbrain {
     width: 19px;
     height: 19px;
-    background-position: -283px -53px;
+    background-position: -490px -38px;
 }
 
 .flair-bobscurse {
     width: 32px;
     height: 32px;
-    background-position: -302px -53px;
+    background-position: -370px -57px;
 }
 
 .flair-body {
     width: 26px;
     height: 26px;
-    background-position: -334px -53px;
+    background-position: -85px -57px;
 }
 
 .flair-bomb {
     width: 20px;
     height: 21px;
-    background-position: -360px -53px;
+    background-position: -32px -57px;
 }
 
 .flair-bombbum {
     width: 33px;
     height: 27px;
-    background-position: -380px -53px;
+    background-position: -402px -57px;
 }
 
 .flair-bookofbelial {
     width: 32px;
     height: 32px;
-    background-position: -413px -53px;
+    background-position: -435px -57px;
 }
 
 .flair-bookofrevelations {
     width: 32px;
     height: 32px;
-    background-position: -445px -53px;
+    background-position: -467px -57px;
 }
 
 .flair-bookofsecrets {
     width: 32px;
     height: 32px;
-    background-position: 0 -85px;
+    background-position: 0 -89px;
 }
 
 .flair-bookofshadows {
     width: 32px;
     height: 32px;
-    background-position: -71px -85px;
+    background-position: -32px -89px;
 }
 
 .flair-bookofsin {
     width: 32px;
     height: 32px;
-    background-position: -103px -85px;
+    background-position: -64px -89px;
 }
 
 .flair-brimstone {
     width: 56px;
     height: 28px;
-    background-position: -135px -85px;
+    background-position: -96px -89px;
 }
 
 .flair-brobobby {
     width: 16px;
     height: 22px;
-    background-position: -477px -53px;
+    background-position: -152px -89px;
 }
 
 .flair-bumbo {
     width: 19px;
     height: 19px;
-    background-position: -283px -75px;
+    background-position: -168px -89px;
 }
 
 .flair-bumbo2 {
     width: 36px;
     height: 32px;
-    background-position: -191px -85px;
+    background-position: -187px -89px;
 }
 
 .flair-bumfriend {
     width: 17px;
     height: 20px;
-    background-position: -360px -75px;
+    background-position: -223px -89px;
 }
 
 .flair-buttbomb {
     width: 21px;
     height: 20px;
-    background-position: -227px -85px;
+    background-position: -240px -89px;
 }
 
 .flair-button {
     width: 28px;
     height: 19px;
-    background-position: -248px -85px;
+    background-position: -261px -89px;
 }
 
 .flair-cain {
     width: 28px;
     height: 25px;
-    background-position: -302px -85px;
+    background-position: -289px -89px;
 }
 
 .flair-card {
     width: 21px;
     height: 21px;
-    background-position: -330px -85px;
+    background-position: -317px -89px;
 }
 
 .flair-catisaac {
     width: 32px;
     height: 29px;
-    background-position: -377px -85px;
+    background-position: -338px -89px;
 }
 
 .flair-caveboy {
     width: 34px;
     height: 37px;
-    background-position: -409px -85px;
+    background-position: -370px -89px;
 }
 
 .flair-chad {
     width: 53px;
     height: 48px;
-    background-position: -443px -85px;
+    background-position: -404px -89px;
 }
 
 .flair-chaos {
     width: 28px;
     height: 25px;
-    background-position: 0 -133px;
+    background-position: -457px -89px;
 }
 
 .flair-chest {
     width: 30px;
     height: 23px;
-    background-position: -28px -133px;
+    background-position: -152px -114px;
 }
 
 .flair-chubs {
     width: 30px;
     height: 29px;
-    background-position: -58px -133px;
+    background-position: -223px -114px;
 }
 
 .flair-coathanger {
     width: 18px;
     height: 21px;
-    background-position: -88px -133px;
+    background-position: -485px -89px;
 }
 
 .flair-conquest {
     width: 44px;
     height: 38px;
-    background-position: -106px -133px;
+    background-position: -253px -114px;
 }
 
 .flair-continuum {
     width: 28px;
     height: 25px;
-    background-position: -150px -133px;
+    background-position: -297px -114px;
 }
 
 .flair-cqueen {
     width: 31px;
     height: 30px;
-    background-position: -178px -133px;
+    background-position: -457px -114px;
 }
 
 .flair-cricketshead {
     width: 24px;
     height: 23px;
-    background-position: -209px -133px;
+    background-position: 0 -144px;
 }
 
 .flair-d100 {
     width: 21px;
     height: 21px;
-    background-position: -233px -133px;
+    background-position: -488px -110px;
 }
 
 .flair-d4 {
     width: 19px;
     height: 16px;
-    background-position: -254px -133px;
+    background-position: -24px -131px;
 }
 
 .flair-d6 {
     width: 32px;
     height: 32px;
-    background-position: -273px -133px;
+    background-position: -43px -131px;
 }
 
 .flair-darkboy {
     width: 56px;
     height: 33px;
-    background-position: -305px -133px;
+    background-position: -75px -144px;
 }
 
 .flair-darkbum {
     width: 19px;
     height: 25px;
-    background-position: -361px -133px;
+    background-position: -131px -131px;
 }
 
 .flair-darksissy {
     width: 23px;
     height: 20px;
-    background-position: -380px -133px;
+    background-position: -150px -144px;
 }
 
 .flair-deadboy {
     width: 35px;
     height: 33px;
-    background-position: -403px -133px;
+    background-position: -182px -131px;
 }
 
 .flair-death {
     width: 37px;
     height: 35px;
-    background-position: -438px -133px;
+    background-position: -325px -131px;
 }
 
 .flair-deathstouch {
     width: 22px;
     height: 19px;
-    background-position: 0 -168px;
+    background-position: -362px -131px;
 }
 
 .flair-deckofcards {
     width: 32px;
     height: 32px;
-    background-position: -22px -168px;
+    background-position: -217px -144px;
 }
 
 .flair-demonbaby {
     width: 18px;
     height: 24px;
-    background-position: -475px -133px;
+    background-position: -384px -131px;
 }
 
 .flair-dime {
     width: 18px;
     height: 13px;
-    background-position: -88px -157px;
+    background-position: 0 -131px;
 }
 
 .flair-dip {
     width: 18px;
     height: 18px;
-    background-position: -209px -157px;
+    background-position: -488px -131px;
 }
 
 .flair-dolly {
     width: 24px;
     height: 25px;
-    background-position: -54px -168px;
+    background-position: -297px -144px;
 }
 
 .flair-drbrims {
     width: 32px;
     height: 32px;
-    background-position: -150px -168px;
+    background-position: -402px -149px;
 }
 
 .flair-drlotp {
     width: 32px;
     height: 32px;
-    background-position: -227px -168px;
+    background-position: -434px -144px;
 }
 
 .flair-drmark {
     width: 32px;
     height: 32px;
-    background-position: -259px -168px;
+    background-position: -466px -149px;
 }
 
 .flair-drspirit {
     width: 32px;
     height: 32px;
-    background-position: -291px -168px;
+    background-position: 0 -181px;
 }
 
 .flair-drugs {
     width: 28px;
     height: 25px;
-    background-position: -323px -168px;
+    background-position: -32px -181px;
 }
 
 .flair-drwhore {
     width: 32px;
     height: 32px;
-    background-position: -351px -168px;
+    background-position: -60px -181px;
 }
 
 .flair-drybaby {
     width: 23px;
     height: 23px;
-    background-position: -182px -168px;
+    background-position: -92px -181px;
 }
 
 .flair-duke {
     width: 31px;
     height: 27px;
-    background-position: -383px -168px;
+    background-position: -115px -181px;
 }
 
 .flair-eden {
     width: 28px;
     height: 25px;
-    background-position: -414px -168px;
+    background-position: -146px -181px;
 }
 
 .flair-eden10 {
     width: 28px;
     height: 26px;
-    background-position: -442px -168px;
+    background-position: -174px -181px;
 }
 
 .flair-eden2 {
     width: 28px;
     height: 34px;
-    background-position: -54px -194px;
+    background-position: -202px -181px;
 }
 
 .flair-eden3 {
     width: 28px;
     height: 25px;
-    background-position: -82px -194px;
+    background-position: -230px -181px;
 }
 
 .flair-eden4 {
     width: 28px;
     height: 28px;
-    background-position: -110px -194px;
+    background-position: -258px -181px;
 }
 
 .flair-eden5 {
     width: 28px;
     height: 26px;
-    background-position: -182px -194px;
+    background-position: -286px -181px;
 }
 
 .flair-eden6 {
     width: 29px;
     height: 29px;
-    background-position: -414px -194px;
+    background-position: -314px -181px;
 }
 
 .flair-eden7 {
     width: 28px;
     height: 29px;
-    background-position: -323px -194px;
+    background-position: -343px -181px;
 }
 
 .flair-eden8 {
     width: 31px;
     height: 32px;
-    background-position: -443px -194px;
+    background-position: -371px -181px;
 }
 
 .flair-eden9 {
     width: 32px;
     height: 29px;
-    background-position: 0 -226px;
+    background-position: -402px -181px;
 }
 
 .flair-elkopolo {
     width: 28px;
     height: 33px;
-    background-position: -82px -226px;
+    background-position: -434px -181px;
 }
 
 .flair-eluc {
     width: 26px;
     height: 28px;
-    background-position: -110px -226px;
+    background-position: -462px -181px;
 }
 
 .flair-envy {
     width: 28px;
     height: 25px;
-    background-position: -136px -226px;
+    background-position: -32px -209px;
 }
 
 .flair-epicfetus {
     width: 32px;
     height: 32px;
-    background-position: -164px -226px;
+    background-position: -92px -209px;
 }
 
 .flair-error {
     width: 33px;
     height: 37px;
-    background-position: -196px -226px;
+    background-position: -124px -209px;
 }
 
 .flair-eternalheart {
     width: 16px;
     height: 14px;
-    background-position: -475px -157px;
+    background-position: -24px -149px;
 }
 
 .flair-eve {
     width: 30px;
     height: 30px;
-    background-position: -229px -226px;
+    background-position: -157px -209px;
 }
 
 .flair-fallen {
     width: 52px;
     height: 46px;
-    background-position: -259px -226px;
+    background-position: -230px -209px;
 }
 
 .flair-famine {
     width: 36px;
     height: 36px;
-    background-position: -311px -226px;
+    background-position: -462px -209px;
 }
 
 .flair-fartingbaby {
     width: 32px;
     height: 32px;
-    background-position: -347px -226px;
+    background-position: 0 -245px;
 }
 
 .flair-fatbat {
     width: 48px;
     height: 30px;
-    background-position: -379px -226px;
+    background-position: -32px -245px;
 }
 
 .flair-fate {
     width: 32px;
     height: 32px;
-    background-position: -427px -226px;
+    background-position: -80px -245px;
 }
 
 .flair-fatty {
     width: 37px;
     height: 29px;
-    background-position: -459px -226px;
+    background-position: -157px -245px;
 }
 
 .flair-fetus {
     width: 32px;
     height: 32px;
-    background-position: 0 -255px;
+    background-position: -194px -245px;
 }
 
 .flair-fistula {
     width: 40px;
     height: 42px;
-    background-position: -32px -255px;
+    background-position: -282px -245px;
 }
 
 .flair-gangel {
     width: 32px;
     height: 32px;
-    background-position: -110px -255px;
+    background-position: -322px -245px;
 }
 
 .flair-gemini {
     width: 32px;
     height: 30px;
-    background-position: -459px -255px;
+    background-position: -354px -245px;
 }
 
 .flair-geminibaby {
     width: 22px;
     height: 25px;
-    background-position: -474px -171px;
+    background-position: -488px -181px;
 }
 
 .flair-ggdb {
     width: 26px;
     height: 25px;
-    background-position: -383px -196px;
+    background-position: -282px -209px;
 }
 
 .flair-ghostbaby {
     width: 16px;
     height: 22px;
-    background-position: 0 -196px;
+    background-position: -386px -245px;
 }
 
 .flair-glut {
     width: 29px;
     height: 25px;
-    background-position: -72px -285px;
+    background-position: -402px -245px;
 }
 
 .flair-gnawedhead {
     width: 28px;
     height: 25px;
-    background-position: -142px -285px;
+    background-position: -431px -245px;
 }
 
 .flair-godhead {
     width: 23px;
     height: 18px;
-    background-position: -170px -285px;
+    background-position: -459px -245px;
 }
 
 .flair-goldbomb {
     width: 20px;
     height: 21px;
-    background-position: -474px -196px;
+    background-position: -482px -245px;
 }
 
 .flair-goldchest {
     width: 30px;
     height: 23px;
-    background-position: -193px -285px;
+    background-position: -112px -263px;
 }
 
 .flair-goldengod {
     width: 34px;
     height: 33px;
-    background-position: -223px -285px;
+    background-position: -226px -263px;
 }
 
 .flair-goldenkey {
     width: 14px;
     height: 20px;
-    background-position: -210px -196px;
+    background-position: -142px -266px;
 }
 
 .flair-goldenpoop {
     width: 27px;
     height: 28px;
-    background-position: -257px -285px;
+    background-position: -459px -266px;
 }
 
 .flair-goldheart {
     width: 16px;
     height: 13px;
-    background-position: -78px -171px;
+    background-position: -75px -131px;
 }
 
 .flair-greed {
     width: 28px;
     height: 30px;
-    background-position: -284px -285px;
+    background-position: 0 -294px;
 }
 
 .flair-greedbomb {
     width: 38px;
     height: 36px;
-    background-position: -312px -285px;
+    background-position: -28px -294px;
 }
 
 .flair-greedheart {
     width: 38px;
     height: 36px;
-    background-position: -350px -285px;
+    background-position: -66px -294px;
 }
 
 .flair-greedkeeper {
     width: 28px;
     height: 27px;
-    background-position: -388px -285px;
+    background-position: -104px -294px;
 }
 
 .flair-greedkey {
     width: 38px;
     height: 36px;
-    background-position: -416px -285px;
+    background-position: -132px -294px;
 }
 
 .flair-gurdy {
     width: 40px;
     height: 28px;
-    background-position: -454px -285px;
+    background-position: -170px -294px;
 }
 
 .flair-gurdyjr {
     width: 43px;
     height: 24px;
-    background-position: 0 -313px;
+    background-position: -260px -294px;
 }
 
 .flair-harlequinbaby {
     width: 17px;
     height: 22px;
-    background-position: -32px -217px;
+    background-position: -260px -266px;
 }
 
 .flair-headlessbaby {
     width: 18px;
     height: 14px;
-    background-position: -94px -171px;
+    background-position: -486px -266px;
 }
 
 .flair-heart {
     width: 16px;
     height: 13px;
-    background-position: -112px -171px;
+    background-position: -91px -131px;
 }
 
 .flair-hhorseman {
     width: 35px;
     height: 33px;
-    background-position: -43px -313px;
+    background-position: -303px -294px;
 }
 
 .flair-hollow {
     width: 35px;
     height: 37px;
-    background-position: -78px -313px;
+    background-position: -338px -294px;
 }
 
 .flair-hosthat {
     width: 22px;
     height: 23px;
-    background-position: -142px -255px;
+    background-position: -373px -280px;
 }
 
 .flair-husk {
     width: 30px;
     height: 28px;
-    background-position: -113px -313px;
+    background-position: -395px -294px;
 }
 
 .flair-imp {
     width: 24px;
     height: 22px;
-    background-position: -143px -313px;
+    background-position: -425px -280px;
 }
 
 .flair-incubus {
     width: 22px;
     height: 22px;
-    background-position: -167px -313px;
+    background-position: -486px -280px;
 }
 
 .flair-isaac {
     width: 28px;
     height: 25px;
-    background-position: -189px -313px;
+    background-position: -449px -294px;
 }
 
 .flair-isaacsheart {
     width: 18px;
     height: 22px;
-    background-position: -257px -313px;
+    background-position: -210px -302px;
 }
 
 .flair-itlives {
     width: 52px;
     height: 47px;
-    background-position: -275px -321px;
+    background-position: -228px -319px;
 }
 
 .flair-jera {
     width: 17px;
     height: 22px;
-    background-position: -388px -313px;
+    background-position: -425px -302px;
 }
 
 .flair-joker {
     width: 21px;
     height: 21px;
-    background-position: -454px -313px;
+    background-position: -477px -302px;
 }
 
 .flair-joncusack {
     width: 31px;
     height: 32px;
-    background-position: -217px -334px;
+    background-position: -170px -323px;
 }
 
 .flair-judas {
     width: 28px;
     height: 30px;
-    background-position: -327px -334px;
+    background-position: -104px -323px;
 }
 
 .flair-key {
     width: 14px;
     height: 20px;
-    background-position: -475px -313px;
+    background-position: -280px -323px;
 }
 
 .flair-keybum {
     width: 17px;
     height: 20px;
-    background-position: -355px -333px;
+    background-position: -373px -323px;
 }
 
 .flair-larryjr {
     width: 35px;
     height: 31px;
-    background-position: -405px -333px;
+    background-position: -442px -319px;
 }
 
 .flair-lazarus {
     width: 28px;
     height: 25px;
-    background-position: -440px -334px;
+    background-position: -390px -323px;
 }
 
 .flair-leech {
     width: 25px;
     height: 14px;
-    background-position: -468px -334px;
+    background-position: -477px -323px;
 }
 
 .flair-lilbrimstone {
     width: 32px;
     height: 32px;
-    background-position: 0 -348px;
+    background-position: 0 -337px;
 }
 
 .flair-lilchest {
     width: 20px;
     height: 19px;
-    background-position: -32px -348px;
+    background-position: -32px -337px;
 }
 
 .flair-lilgurd {
     width: 24px;
     height: 21px;
-    background-position: -52px -348px;
+    background-position: -52px -337px;
 }
 
 .flair-lilgurd2 {
     width: 27px;
     height: 22px;
-    background-position: -113px -348px;
+    background-position: -76px -337px;
 }
 
 .flair-lilhaunt {
     width: 22px;
     height: 19px;
-    background-position: -140px -348px;
+    background-position: -132px -337px;
 }
 
 .flair-lilhorn {
     width: 28px;
     height: 26px;
-    background-position: -162px -348px;
+    background-position: -294px -337px;
 }
 
 .flair-lilith {
     width: 32px;
     height: 27px;
-    background-position: -372px -348px;
+    background-position: -322px -337px;
 }
 
 .flair-lilloki {
     width: 20px;
     height: 23px;
-    background-position: -190px -348px;
+    background-position: -201px -337px;
 }
 
 .flair-littlebattery {
     width: 32px;
     height: 32px;
-    background-position: -76px -359px;
+    background-position: -477px -337px;
 }
 
 .flair-littlechad {
     width: 18px;
     height: 23px;
-    background-position: -248px -348px;
+    background-position: 0 -369px;
 }
 
 .flair-littlechubby {
     width: 15px;
     height: 20px;
-    background-position: -468px -348px;
+    background-position: -18px -369px;
 }
 
 .flair-littlegish {
     width: 19px;
     height: 19px;
-    background-position: -32px -368px;
+    background-position: -33px -369px;
 }
 
 .flair-littlehorn {
     width: 33px;
     height: 38px;
-    background-position: -210px -368px;
+    background-position: -52px -369px;
 }
 
 .flair-littlesteve {
     width: 16px;
     height: 22px;
-    background-position: -140px -368px;
+    background-position: -210px -280px;
 }
 
 .flair-loki {
     width: 32px;
     height: 41px;
-    background-position: -266px -368px;
+    background-position: -85px -369px;
 }
 
 .flair-lokii {
     width: 29px;
     height: 40px;
-    background-position: -298px -368px;
+    background-position: -117px -369px;
 }
 
 .flair-lokiii {
     width: 28px;
     height: 36px;
-    background-position: -327px -368px;
+    background-position: -146px -369px;
 }
 
 .flair-ludo {
     width: 26px;
     height: 26px;
-    background-position: -404px -368px;
+    background-position: -174px -369px;
 }
 
 .flair-lust {
     width: 32px;
     height: 32px;
-    background-position: -430px -368px;
+    background-position: -200px -369px;
 }
 
 .flair-lustyblood {
     width: 17px;
     height: 24px;
-    background-position: -355px -368px;
+    background-position: -232px -369px;
 }
 
 .flair-magdalene {
     width: 36px;
     height: 29px;
-    background-position: 0 -400px;
+    background-position: -354px -350px;
 }
 
 .flair-manuel {
     width: 23px;
     height: 30px;
-    background-position: -462px -368px;
+    background-position: -249px -369px;
 }
 
 .flair-mask {
     width: 48px;
     height: 54px;
-    background-position: -36px -398px;
+    background-position: -390px -350px;
 }
 
 .flair-mawofthevoid {
     width: 32px;
     height: 27px;
-    background-position: -84px -398px;
+    background-position: -272px -369px;
 }
 
 .flair-meat {
     width: 25px;
     height: 24px;
-    background-position: -116px -398px;
+    background-position: -304px -369px;
 }
 
 .flair-meatboyisaac {
     width: 28px;
     height: 25px;
-    background-position: -141px -398px;
+    background-position: -438px -369px;
 }
 
 .flair-megablast {
     width: 58px;
     height: 33px;
-    background-position: -355px -398px;
+    background-position: -304px -394px;
 }
 
 .flair-megasatan {
     width: 129px;
     height: 62px;
-    background-position: -84px -431px;
+    background-position: -174px -404px;
 }
 
 .flair-mheart {
     width: 31px;
     height: 39px;
-    background-position: -462px -398px;
+    background-position: -466px -369px;
 }
 
 .flair-mind {
     width: 26px;
     height: 26px;
-    background-position: -169px -398px;
+    background-position: 0 -408px;
 }
 
 .flair-mom {
     width: 42px;
     height: 43px;
-    background-position: -413px -400px;
+    background-position: -26px -408px;
 }
 
 .flair-momsboy {
     width: 34px;
     height: 33px;
-    background-position: 0 -437px;
+    background-position: -362px -408px;
 }
 
 .flair-momsknife {
     width: 11px;
     height: 28px;
-    background-position: -138px -171px;
+    background-position: -499px -57px;
 }
 
 .flair-moneyispower {
     width: 28px;
     height: 25px;
-    background-position: -213px -437px;
+    background-position: -146px -408px;
 }
 
 .flair-mongobaby {
     width: 24px;
     height: 26px;
-    background-position: -241px -437px;
+    background-position: -396px -408px;
 }
 
 .flair-monstro {
     width: 35px;
     height: 25px;
-    background-position: -265px -437px;
+    background-position: -420px -408px;
 }
 
 .flair-monstro2 {
     width: 35px;
     height: 24px;
-    background-position: -300px -437px;
+    background-position: -455px -408px;
 }
 
 .flair-monstroslung {
     width: 32px;
     height: 32px;
-    background-position: -335px -437px;
+    background-position: -68px -432px;
 }
 
 .flair-nail {
     width: 30px;
     height: 25px;
-    background-position: -367px -437px;
+    background-position: -100px -432px;
 }
 
 .flair-nickel {
     width: 18px;
     height: 13px;
-    background-position: -243px -398px;
+    background-position: -107px -131px;
+}
+
+.flair-originalitlives {
+    width: 52px;
+    height: 51px;
+    background-position: -303px -432px;
 }
 
 .flair-ovum {
     width: 22px;
     height: 28px;
-    background-position: -455px -437px;
+    background-position: -455px -432px;
 }
 
 .flair-parasite {
     width: 32px;
     height: 32px;
-    background-position: -490px 0;
+    background-position: -477px -432px;
 }
 
 .flair-peep {
     width: 35px;
     height: 29px;
-    background-position: -493px -32px;
+    background-position: 0 -464px;
 }
 
 .flair-penny {
     width: 18px;
     height: 13px;
-    background-position: -48px -32px;
+    background-position: 0 -280px;
 }
 
 .flair-pest {
     width: 36px;
     height: 32px;
-    background-position: -485px -348px;
+    background-position: -35px -464px;
 }
 
 .flair-pgdb {
     width: 26px;
     height: 25px;
-    background-position: -496px -61px;
+    background-position: -71px -464px;
 }
 
 .flair-phd {
     width: 32px;
     height: 32px;
-    background-position: -496px -86px;
+    background-position: -97px -464px;
 }
 
 .flair-pill {
     width: 17px;
     height: 17px;
-    background-position: -66px -32px;
+    background-position: -228px -302px;
 }
 
 .flair-pin {
     width: 25px;
     height: 26px;
-    background-position: -496px -118px;
+    background-position: -129px -464px;
 }
 
 .flair-platinumgod {
     width: 34px;
     height: 34px;
-    background-position: -494px -255px;
+    background-position: -355px -464px;
 }
 
 .flair-poop {
     width: 32px;
     height: 32px;
-    background-position: -496px -144px;
+    background-position: -389px -464px;
 }
 
 .flair-pride {
     width: 28px;
     height: 25px;
-    background-position: -496px -176px;
+    background-position: -421px -464px;
 }
 
 .flair-prizebomb {
     width: 24px;
     height: 26px;
-    background-position: -496px -201px;
+    background-position: -449px -464px;
 }
 
 .flair-punchingbag {
     width: 32px;
     height: 32px;
-    background-position: -494px -289px;
+    background-position: -473px -464px;
 }
 
 .flair-questionmark {
     width: 18px;
     height: 22px;
-    background-position: -138px -201px;
+    background-position: -329px -369px;
 }
 
 .flair-ragling {
     width: 37px;
     height: 23px;
-    background-position: -224px -201px;
+    background-position: -509px 0;
 }
 
 .flair-ragman {
     width: 32px;
     height: 28px;
-    background-position: -496px -227px;
+    background-position: -509px -23px;
 }
 
 .flair-rainbowpoop {
     width: 27px;
     height: 28px;
-    background-position: -493px -380px;
+    background-position: -510px -51px;
 }
 
 .flair-rainbowworm {
     width: 20px;
     height: 20px;
-    background-position: -156px -201px;
+    background-position: -510px -79px;
 }
 
 .flair-realplatinumgod {
     width: 61px;
     height: 53px;
-    background-position: -213px -465px;
+    background-position: -546px 0;
 }
 
 .flair-redchest {
     width: 30px;
     height: 23px;
-    background-position: -261px -201px;
+    background-position: -537px -53px;
 }
 
 .flair-redpoop {
     width: 27px;
     height: 28px;
-    background-position: -213px -408px;
+    background-position: -567px -53px;
 }
 
 .flair-robobaby {
     width: 18px;
     height: 22px;
-    background-position: -291px -201px;
+    background-position: -530px -81px;
 }
 
 .flair-roidrage {
     width: 32px;
     height: 32px;
-    background-position: -493px -408px;
+    background-position: -548px -81px;
 }
 
 .flair-rottenbaby {
     width: 16px;
     height: 22px;
-    background-position: -16px -201px;
+    background-position: -580px -81px;
 }
 
 .flair-sack {
     width: 20px;
     height: 22px;
-    background-position: -351px -201px;
+    background-position: -509px -103px;
 }
 
 .flair-sackhead {
     width: 31px;
     height: 32px;
-    background-position: -477px -440px;
+    background-position: -529px -113px;
 }
 
 .flair-sacredheart {
     width: 17px;
     height: 26px;
-    background-position: -493px -321px;
+    background-position: -580px -103px;
 }
 
 .flair-sadonion {
     width: 32px;
     height: 32px;
-    background-position: 0 -472px;
+    background-position: -560px -129px;
 }
 
 .flair-sagittarius {
     width: 20px;
     height: 20px;
-    background-position: 0 -289px;
+    background-position: -509px -129px;
 }
 
 .flair-salt {
     width: 24px;
     height: 27px;
-    background-position: -298px -408px;
+    background-position: -510px -161px;
 }
 
 .flair-samson {
     width: 30px;
     height: 26px;
-    background-position: -322px -408px;
+    background-position: -534px -161px;
 }
 
 .flair-satan {
     width: 48px;
     height: 58px;
-    background-position: -528px 0;
+    background-position: -534px -187px;
 }
 
 .flair-scollex {
     width: 32px;
     height: 32px;
-    background-position: -528px -58px;
+    background-position: -504px -245px;
 }
 
 .flair-shoop {
     width: 23px;
     height: 22px;
-    background-position: -528px -90px;
+    background-position: -564px -161px;
 }
 
 .flair-shopkeeper {
     width: 28px;
     height: 34px;
-    background-position: -528px -112px;
+    background-position: -536px -245px;
 }
 
 .flair-sickbomb {
     width: 20px;
     height: 19px;
-    background-position: -551px -90px;
+    background-position: -249px -161px;
 }
 
 .flair-sickisaac {
     width: 28px;
     height: 25px;
-    background-position: -528px -146px;
+    background-position: -564px -245px;
 }
 
 .flair-sissylonglegs {
     width: 23px;
     height: 23px;
-    background-position: -528px -171px;
+    background-position: -582px -183px;
 }
 
 .flair-sistermaggy {
     width: 16px;
     height: 22px;
-    background-position: -560px -58px;
+    background-position: -592px -129px;
 }
 
 .flair-skatole {
     width: 32px;
     height: 32px;
-    background-position: -524px -194px;
+    background-position: -564px -270px;
 }
 
 .flair-sleepybunny {
     width: 28px;
     height: 29px;
-    background-position: -528px -226px;
+    background-position: -502px -302px;
 }
 
 .flair-sloth {
     width: 28px;
     height: 25px;
-    background-position: -528px -255px;
+    background-position: -498px -206px;
 }
 
 .flair-smileyguy {
     width: 30px;
     height: 26px;
-    background-position: -528px -280px;
+    background-position: -530px -302px;
 }
 
 .flair-soul {
     width: 26px;
     height: 26px;
-    background-position: -526px -306px;
+    background-position: -582px -206px;
 }
 
 .flair-soulheart {
     width: 16px;
     height: 13px;
-    background-position: -32px -109px;
+    background-position: -362px -151px;
 }
 
 .flair-spider {
     width: 32px;
     height: 32px;
-    background-position: -521px -332px;
+    background-position: -560px -302px;
 }
 
 .flair-spider-enemy {
     width: 40px;
     height: 20px;
-    background-position: -227px -112px;
+    background-position: -509px -334px;
 }
 
 .flair-spidermod {
     width: 19px;
     height: 18px;
-    background-position: -48px -109px;
+    background-position: -131px -161px;
 }
 
 .flair-spikechest {
     width: 32px;
     height: 23px;
-    background-position: -267px -109px;
+    background-position: -549px -334px;
 }
 
 .flair-steven {
     width: 32px;
     height: 32px;
-    background-position: -521px -364px;
+    background-position: -509px -357px;
 }
 
 .flair-stopwatch {
     width: 21px;
     height: 24px;
-    background-position: -552px -306px;
+    background-position: -395px -270px;
 }
 
 .flair-super-wrath {
     width: 37px;
     height: 35px;
-    background-position: -525px -396px;
+    background-position: -541px -357px;
 }
 
 .flair-superbum {
     width: 28px;
     height: 26px;
-    background-position: -525px -431px;
+    background-position: -578px -357px;
 }
 
 .flair-supergreed {
     width: 37px;
     height: 41px;
-    background-position: -34px -457px;
+    background-position: -509px -392px;
 }
 
 .flair-techx {
     width: 28px;
     height: 25px;
-    background-position: -397px -457px;
+    background-position: -362px -383px;
 }
 
 .flair-techx-item {
     width: 25px;
     height: 18px;
-    background-position: -330px -109px;
+    background-position: -269px -161px;
 }
 
 .flair-teratoma {
     width: 44px;
     height: 41px;
-    background-position: -508px -457px;
+    background-position: -546px -392px;
 }
 
 .flair-thegamekid {
     width: 32px;
     height: 32px;
-    background-position: -32px -498px;
+    background-position: -509px -433px;
 }
 
 .flair-thelost {
     width: 28px;
     height: 37px;
-    background-position: -64px -498px;
+    background-position: -541px -433px;
 }
 
 .flair-thelost2 {
     width: 28px;
     height: 37px;
-    background-position: -92px -498px;
+    background-position: -569px -433px;
 }
 
 .flair-tinfoil {
     width: 34px;
     height: 37px;
-    background-position: -120px -498px;
+    background-position: -154px -470px;
 }
 
 .flair-tinyplanet {
     width: 28px;
     height: 30px;
-    background-position: -154px -498px;
+    background-position: -130px -433px;
 }
 
 .flair-tinyplanetitem {
     width: 17px;
     height: 17px;
-    background-position: -355px -109px;
+    background-position: -378px -161px;
 }
 
 .flair-tractor {
     width: 28px;
     height: 25px;
-    background-position: -425px -457px;
+    background-position: -420px -433px;
 }
 
 .flair-triachnid {
     width: 51px;
     height: 69px;
-    background-position: -274px -498px;
+    background-position: -188px -470px;
 }
 
 .flair-trollbomb {
     width: 24px;
     height: 25px;
-    background-position: -552px -457px;
+    background-position: -239px -470px;
 }
 
 .flair-turdling {
     width: 38px;
     height: 38px;
-    background-position: -325px -498px;
+    background-position: -263px -470px;
 }
 
 .flair-ultra-butt {
     width: 52px;
     height: 27px;
-    background-position: -363px -482px;
+    background-position: -505px -470px;
 }
 
 .flair-ultra-butt2 {
     width: 56px;
     height: 23px;
-    background-position: -415px -498px;
+    background-position: -508px -279px;
 }
 
 .flair-ultra-butt3 {
     width: 52px;
     height: 28px;
-    background-position: -471px -498px;
+    background-position: 0 -497px;
 }
 
 .flair-ultra-butt4 {
     width: 53px;
     height: 22px;
-    background-position: -523px -498px;
+    background-position: -52px -497px;
 }
 
 .flair-ultra-butt5 {
     width: 51px;
     height: 28px;
-    background-position: -182px -520px;
+    background-position: -557px -470px;
 }
 
 .flair-ultra-butt6 {
     width: 49px;
     height: 31px;
-    background-position: -363px -520px;
+    background-position: -105px -498px;
 }
 
 .flair-unknown {
     width: 28px;
     height: 25px;
-    background-position: 0 -520px;
+    background-position: -301px -498px;
 }
 
 .flair-vampirebat {
     width: 32px;
     height: 32px;
-    background-position: -233px -520px;
+    background-position: -329px -498px;
+}
+
+.flair-vanilla-bluebaby {
+    width: 40px;
+    height: 35px;
+    background-position: -361px -498px;
+}
+
+.flair-vanilla-cain {
+    width: 40px;
+    height: 35px;
+    background-position: -401px -498px;
+}
+
+.flair-vanilla-eve {
+    width: 40px;
+    height: 35px;
+    background-position: -441px -498px;
+}
+
+.flair-vanilla-isaac {
+    width: 40px;
+    height: 35px;
+    background-position: -481px -498px;
+}
+
+.flair-vanilla-judas {
+    width: 40px;
+    height: 35px;
+    background-position: -521px -498px;
+}
+
+.flair-vanilla-maggy {
+    width: 40px;
+    height: 35px;
+    background-position: -561px -498px;
+}
+
+.flair-vanilla-samson {
+    width: 40px;
+    height: 35px;
+    background-position: 0 -533px;
 }
 
 .flair-war {
     width: 38px;
     height: 36px;
-    background-position: -523px -520px;
+    background-position: -40px -533px;
 }
 
 .flair-whore {
     width: 50px;
     height: 38px;
-    background-position: -576px 0;
+    background-position: -78px -533px;
 }
 
 .flair-widow {
     width: 34px;
     height: 26px;
-    background-position: -576px -38px;
+    background-position: -128px -533px;
 }
 
 .flair-wiz {
     width: 28px;
     height: 37px;
-    background-position: -576px -64px;
+    background-position: -239px -533px;
 }
 
 .flair-wrath {
     width: 28px;
     height: 25px;
-    background-position: -571px -101px;
+    background-position: -267px -533px;
 }
 
 .flair-wretched {
     width: 34px;
     height: 28px;
-    background-position: -556px -126px;
+    background-position: -295px -533px;
 }
